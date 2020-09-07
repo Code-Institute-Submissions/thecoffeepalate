@@ -26,6 +26,13 @@ All of this, through an appealing, intuitive website with straight-forward and c
 ### **User Goals & Stories**
 
 #### **Goals**
+As a user I aim for:
+* a simple and intuitive website,
+* with value-added content,
+* displayed over visual attractive pages,
+* containing clear information on coffee and blending process,
+* with several call-to-actions.
+
 
 #### **Stories**
 
