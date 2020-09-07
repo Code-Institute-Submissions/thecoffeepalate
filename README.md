@@ -6,14 +6,17 @@ Here comes the mockup image.
 
 ## **Project Goal** 
 
-<p>Welcome to the Coffee Palate!</p>
-<p>Aren't you tired of always having to choose between hunderds of differents coffees when you go to the supermarket? Do you always end up choosing that kind of coffee that barely meet your preferences just because there is not enough information about it? Have you ever realized how big roasters are always deciding which coffee you have to drink?
-The Coffee Palate is finally here give you exactly what you are looking for in a cup of coffee!</p> 
-<p>You can finally stop complying with what big roasting companies think you need and adjust the coffee profile to your own specific palate.
+Welcome to the Coffee Palate!
+
+Aren't you tired of always having to choose between hunderds of differents coffees when you go to the supermarket? Do you always end up choosing that kind of coffee that barely meet your preferences just because there is not enough information about it? Have you ever realized how big roasters are always deciding which coffee you have to drink?
+The Coffee Palate is finally here give you exactly what you are looking for in a cup of coffee! 
+
+You can finally stop complying with what big roasting companies think you need and adjust the coffee profile to your own specific palate.
 If every person is different, why do we have to drink the same kind of coffee, right? Coffee by convenience is no longer what you need. You deserve you own unique blend!
 Throughout this website you can learn about different coffee origins, learn about the roasting profiles and, finally, based on your brand new acquired knowledge, develop your own exclusive blend. 
-All of this, through an appealing, intuitive website with straight-forward and clear information.</p>
-<p>Thank you for visiting my project and do not hesitate to contact me via GitHub if you have any doubts or concerns related to The Coffee Palate project.</p>
+All of this, through an appealing, intuitive website with straight-forward and clear information.
+
+Thank you for visiting my project and do not hesitate to contact me via GitHub if you have any doubts or concerns related to The Coffee Palate project.
 
 ---
 
@@ -66,12 +69,21 @@ As a user, I want to:
 ### **Company Goals**
 
 ### **Design Choices**
-<p>As a coffee roaster specialized in blends, I tried to choose colors, both cold and warm, that work harmoniously, standing out the same effect expected on a blend from different origins and coffee with different profiles.</p>
-<p>While trying to generate the business logo through [Tailor Brand] (https://studio.tailorbrands.com/) I came across several appealing color schemes. Afterwards, I have transfered the most appealing one to [Coolors] (https://coolors.co/) where, through slight adjustments, came up with a final, strong and harmounious scheme.</p>
+As a coffee roaster specialized in blends, I tried to choose colors, both cold and warm, that work harmoniously, standing out the same effect expected on a blend from different origins and coffee with different profiles.</p>
+While trying to generate the business logo through [Tailor Brand](https://studio.tailorbrands.com/) I came across several appealing color schemes. Afterwards, I have transfered the most appealing one to [Coolors](https://coolors.co/) where, through slight adjustments, came up with a final, strong and harmounious scheme.
 
 #### Structure
 
 #### Fonts
+Through [Tailor Brand](https://studio.tailorbrands.com/), I also got to know interesting font types. 
+
+Afterwards, I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to try to replicate the ones found.
+
+For the overall content I am using [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans?preview.text=unique&preview.text_type=custom&sidebar.open=true&selection.family=Kumbh+Sans) font. A font that is easily readable and visually attractive.
+
+For the headings I have decided to go with [Allerta Stencil](https://fonts.google.com/specimen/Allerta+Stencil?preview.text=unique&preview.text_type=custom&sidebar.open=true&query=stencil) font, making the heading stand out from the general content and reflecting a characteristic from the roasting process: the cracks!
+
+I trust that both typographies used blend very well with each other, creating a calm and inviting look to the website.
 
 #### Icons
 
