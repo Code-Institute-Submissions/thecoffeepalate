@@ -81,8 +81,6 @@ As the company owner, I want to:
 As a coffee roaster specialized in blends, I tried to choose colors, both cold and warm, that work harmoniously, standing out the same effect expected on a blend from different origins and coffee with different profiles.</p>
 While trying to generate the business logo through [Tailor Brand](https://studio.tailorbrands.com/) I came across several appealing color schemes. Afterwards, I have transfered the most appealing one to [Coolors](https://coolors.co/) where, through slight adjustments, came up with a final, strong and harmounious scheme.
 
-#### Structure
-
 #### Fonts
 Through [Tailor Brand](https://studio.tailorbrands.com/), I also got to know interesting font types. 
 
@@ -97,6 +95,19 @@ I trust that both typographies used blend very well with each other, creating a 
 #### Icons
 
 #### Colors
+
+#### Structure
+
+My website will be divided into 3 different pages.
+
+##### Landing Page
+The landing page is aimed to be visually attractive, with appealing images/icons that says "Welcome" by itself, unconsciously engaging the reader and creating curiosity to keep navigating throughout the page.
+
+##### The Lab
+The Lab is the educational part of the website where readers can come to learn more about the different coffee origins available and the several roasting profiles provided by the company.
+
+##### Blending Store
+The Blending store is the place where the magic happens. Here, the consumer can put into practice his/her new-found knowledge and create their own unique blend.
 
 ---
 
