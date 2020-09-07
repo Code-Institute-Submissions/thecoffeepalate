@@ -48,6 +48,10 @@ As a user, I want to:
 #### **User Requirements & Expectations**
 
 #### **Requirements**
+* Easy navigation
+* Interesting and pertinent content about coffee and blends
+* Clear pricing information
+* Good access points to contact the company
 
 #### **Expectations**
 
