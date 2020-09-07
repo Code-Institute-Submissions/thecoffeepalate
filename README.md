@@ -48,12 +48,20 @@ As a user, I want to:
 #### **User Requirements & Expectations**
 
 #### **Requirements**
-* Easy navigation
-* Interesting and pertinent content about coffee and blends
-* Clear pricing information
-* Good access points to contact the company
+* Easy navigation.
+* Interesting and pertinent content about coffee and blends.
+* Clear pricing information.
+* Good access points to contact the company.
 
 #### **Expectations**
+
+* Clear information about the the steps to make my own blend.
+* When clicking on links to external pages, I expect the new page to be opened in a separate browser tab.
+* During the blending process, user wants to receive tips through "Tooltips".
+* Reach out to the user's specific blend throughout no more than 4 steps.
+* Strong connection with website visual effects.
+* Links must be working properly to reach the target with any setbacks.
+* Receive feedback after submitting my order through the form.
 
 ### **Company Goals**
 
