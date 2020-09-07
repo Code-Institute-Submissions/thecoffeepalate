@@ -66,6 +66,8 @@ As a user, I want to:
 ### **Company Goals**
 
 ### **Design Choices**
+<p>As a coffee roaster specialized in blends, I tried to choose colors, both cold and warm, that work harmoniously, standing out the same effect expected on a blend from different origins and coffee with different profiles.</p>
+<p>While trying to generate the business logo through [Tailor Brand] (https://studio.tailorbrands.com/) I came across several appealing color schemes. Afterwards, I have transfered the most appealing one to [Coolors] (https://coolors.co/) where, through slight adjustments, came up with a final, strong and harmounious scheme.</p>
 
 #### Structure
 
