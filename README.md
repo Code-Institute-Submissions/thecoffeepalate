@@ -68,6 +68,15 @@ As a user, I want to:
 
 ### **Company Goals**
 
+As the company owner, I want to:
+
+* Estalish the company online.
+* Advertise the "make your own blend" as an innovative and unique service. 
+* Attract customers to the ***art*** of blending.
+* Promote different coffee origins.
+* Educate the readers in regard to the different roasting profiles available.
+* Convert webpage readers into potential customers.
+
 ### **Design Choices**
 As a coffee roaster specialized in blends, I tried to choose colors, both cold and warm, that work harmoniously, standing out the same effect expected on a blend from different origins and coffee with different profiles.</p>
 While trying to generate the business logo through [Tailor Brand](https://studio.tailorbrands.com/) I came across several appealing color schemes. Afterwards, I have transfered the most appealing one to [Coolors](https://coolors.co/) where, through slight adjustments, came up with a final, strong and harmounious scheme.
