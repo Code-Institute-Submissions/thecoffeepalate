@@ -35,6 +35,15 @@ As a user I aim for:
 
 
 #### **Stories**
+As a user, I want to:
+* buy good quality and year-round consistent coffee.
+* be able to select several origins to use in my blend.
+* be able to learn more about coffee produced worldwide.
+* get to know where my coffee comes from.
+* understand about the different roasting profiles.
+* access an intuitive website, easy to navigate.
+* easily find the company contacts.
+* easily find the company's social-networks.
 
 #### **User Requirements & Expectations**
 
