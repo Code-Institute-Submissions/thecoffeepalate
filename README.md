@@ -93,8 +93,32 @@ For the headings I have decided to go with [Allerta Stencil](https://fonts.googl
 I trust that both typographies used blend very well with each other, creating a calm and inviting look to the website.
 
 #### Icons
+The icons that I will be using throughout my page are from [FontAwesome](https://fontawesome.com/ "FontAwesome").
+
+The icons choosen are easy to understand and in line with the company branding , providing interest and supporting the navigation.
+
+For instance, the navigation bar will collapse into a hambuger icon in mobile devices.
 
 #### Colors
+
+![Color Scheme](wireframes/tcp_color_scheme.png)
+
+
+* congo-pink: #ed8074ff
+The congo pink will be the color standing out the most as it will be used for the call-to-action buttons.
+
+* metallic-seaweed: #1d7a8cff;
+The metallic-seaweed color will be and "aid" color. It will be used, if necesssary, to separate sections or highlight borders.
+
+* outer-space-crayola: #0b3037ff;
+This color will be the used throughout the website as the main text color. It has a great [contrast](https://coolors.co/contrast-checker/0b3037-f8f8ff) with the background.
+
+* ghost-white: #f8f8ffff;
+
+The overall website will have a clean and fresh background, reason why I have opted by the Ghost White.
+This particular color has a blue-purple accent that eases the transition to the three colors already mentioned.
+
+In the creation of this palette, the [Contrast-Checker](https://coolors.co/contrast-checker/0b3037-f8f8ff) tool from [Coolors](https://coolors.co/ "Coolors") has been used in order to guarantee as good user readability. 
 
 #### Structure
 
