@@ -1,28 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Kumbh+Sans:wght@300;400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Kumbh+Sans:wght@300;400;700&display=swap");
 
 /* Navbar */
 
 .navbar-tcp {
-    background-color: #ed8074;
-    color: #0B3037;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
+  background-color:#f8f8ffff);
+  color: #0b3037;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 .nav-link {
-    background-color: #0B3037;
-    color: #ed8074;
-    background-size: 100%;
+    background-color: #ffedeb;
+    color: #0b3037;
+    font-size: 1rem;
+    font-family: "Allerta Stencil", sans-serif;
+    margin: 0.2rem 0rem;
 }
 
 .navbar-brand {
-    font-family: "Allerta Stencil", sans-serif;
-    color: #0B3037;
+  font-size: 4vw;
+  font-family: "Allerta Stencil", sans-serif;
+  color: #0b3037;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #0b3037;
+  border-width: 0.2rem;
+  border-style: groove;
+  box-shadow: 0.2rem -0.2rem 0.1rem #0b3037;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.fas.fa-coffee {
+  color: #0b3037;
 }
 
 /* Body */
 
 body {
-    font-family: "Kumh Sans", sans-serif;
+  font-family: "Kumh Sans", sans-serif;
 }
