@@ -14,7 +14,7 @@ html {
     color: #0b3037;
     text-transform: uppercase;
     letter-spacing: 1vw;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top: 0;
     z-index: 999999;
@@ -28,7 +28,7 @@ html {
     color: #0b3037;
     font-size: 3vw;
     font-family: "Allerta Stencil", sans-serif;
-    margin: 1vw 0;
+    margin: 1vw 2vw;
     text-align: center;
 }
 
@@ -39,23 +39,21 @@ html {
     padding: 0;
 }
 
-.nav-item {
-    margin: 0 1vw;
-}
-
 .custom-toggler.navbar-toggler {
     border-color: #0b3037;
     border-width: 0.2vw;
     border-style: groove;
     box-shadow: 0.2vw -0.2vw 0.1vw #0b3037;
-    padding: 1vw 2vw;
-    width: 7vw;
-    height: 6vw;
-    margin-right: 1vw;
+    padding: 0;
+    width: 5vw;
+    height: 5vw;
+    margin-right: 2vw;
 }
 
 .fas.fa-coffee {
     color: #0b3037;
+    font-size: 3vw;
+    display: grid;
 }
 
 
@@ -64,6 +62,7 @@ html {
 #navbar-logo {
     width: 10vw;
     height: auto;
+    margin-left: 2vw;
 }
 
 
