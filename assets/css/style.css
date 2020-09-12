@@ -1,74 +1,100 @@
 @import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Kumbh+Sans:wght@300;400;700&display=swap");
 
-/* HTML */                                                                                        
+/* HTML */
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
-
 
 /* Navbar */
 
 #navbar-tcp {
-    background-color:#f8f8ffff;
-    color: #0b3037;
-    text-transform: uppercase;
-    letter-spacing: 1vw;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    z-index: 999999;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
+  background-color: #f8f8ffff;
+  color: #0b3037;
+  text-transform: uppercase;
+  letter-spacing: 1vw;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 .nav-link {
-    background-color: #ffedeb;
-    color: #0b3037;
-    font-size: 3vw;
-    font-family: "Allerta Stencil", sans-serif;
-    margin: 1vw 2vw;
-    text-align: center;
+  background-color: #ffedeb;
+  color: #0b3037;
+  font-size: 3vw;
+  font-family: "Allerta Stencil", sans-serif;
+  margin: 1vw 2vw;
+  text-align: center;
 }
 
 #navbar-brand {
-    font-family: "Allerta Stencil", sans-serif;
-    font-size: 5vw;
-    color: #0b3037;
-    padding: 0;
+  font-family: "Allerta Stencil", sans-serif;
+  font-size: 5vw;
+  color: #0b3037;
+  padding: 0;
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: #0b3037;
-    border-width: 0.2vw;
-    border-style: groove;
-    box-shadow: 0.2vw -0.2vw 0.1vw #0b3037;
-    padding: 0;
-    width: 5vw;
-    height: 5vw;
-    margin-right: 2vw;
+  border-color: #0b3037;
+  border-width: 0.2vw;
+  border-style: groove;
+  box-shadow: 0.2vw -0.2vw 0.1vw #0b3037;
+  padding: 0;
+  width: 5vw;
+  height: 5vw;
+  margin-right: 2vw;
 }
 
 .fas.fa-coffee {
-    color: #0b3037;
-    font-size: 3vw;
-    display: grid;
+  color: #0b3037;
+  font-size: 3vw;
+  display: grid;
 }
-
 
 /* Logo */
 
 #navbar-logo {
-    width: 10vw;
-    height: auto;
-    margin-left: 2vw;
+  width: 10vw;
+  height: auto;
+  margin-left: 2vw;
 }
-
 
 /* Body */
 
 body {
-    font-family: "Kumh Sans", sans-serif;
-    font-size: 1.6rem;
+  font-family: "Kumh Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) {
+
+  .nav-link {
+    font-size: 1vw;
+    margin: 0.5vw;
+    text-align: center;
+    max-width: 15vw;
+    height: 5vw;
+  }
+
+  .nav-icons {
+      font-size: 2vw;
+      width: 100%;
+  }
+
+  #navbar-brand {
+    font-size: 2vw;
+    padding: 0;
+  }
+
+  #navbar-logo {
+    width: 5vw;
+    height: auto;
+    margin-left: 2vw;
+  }
 }
