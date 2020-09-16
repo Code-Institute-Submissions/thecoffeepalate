@@ -71,6 +71,22 @@ body {
   font-size: 1.6rem;
 }
 
+/* Footer */
+
+footer {
+  background-color: #f8f8ffff;
+  color: #0b3037;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.fab, .far {
+    color: #ed8074;
+}
+
 /* Media Queries */
 
 @media (min-width: 992px) {
