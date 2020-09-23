@@ -86,6 +86,8 @@ footer {
 .fab,
 .far {
   color: #ed8074;
+  font-size: 2rem;
+  margin: 1rem;
 }
 
 #social-links {
@@ -100,6 +102,19 @@ footer {
   box-shadow: 5rem;
 }
 
+#newsform {
+    text-align: center;
+}
+
+#inlineFormInput {
+    font-size: 1.5rem;
+    margin: auto;
+    max-width: 40rem;
+}
+
+#copyright {
+    text-align:center;
+}
 
 /* Media Queries */
 
