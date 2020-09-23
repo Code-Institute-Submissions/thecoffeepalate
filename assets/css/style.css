@@ -90,9 +90,6 @@ footer {
   margin: 1rem;
 }
 
-#social-links {
-  text-align: center;
-}
 
 #subscribebtn {
   color: #0b3037;
@@ -110,10 +107,6 @@ footer {
     font-size: 1.5rem;
     margin: auto;
     max-width: 40rem;
-}
-
-#copyright {
-    text-align:center;
 }
 
 /* Media Queries */
