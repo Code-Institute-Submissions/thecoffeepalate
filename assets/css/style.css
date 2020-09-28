@@ -9,7 +9,7 @@ html {
 /* Navbar */
 
 #navbar-tcp {
-  background-color: #f8f8ffff;
+  background-color: #f8f8ff;
   color: #0b3037;
   text-transform: uppercase;
   letter-spacing: 1vw;
@@ -64,24 +64,88 @@ html {
   margin-left: 2vw;
 }
 
+/* Hero Container*/
+
+.hero-container {
+    position: relative;
+    text-align: center;
+}
+
+.background-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    width: 100%;
+    height: 80vh;
+    filter: sepia(50%);
+    text-align: center;
+    /* position: relative; */
+    
+}
+
+.text-block-top {
+    background-color: rgba(237, 128, 116, 0.8);
+    color:  #0b3037;
+    font-size: 4vw; 
+    font-weight: 700;
+    position: absolute;
+    top: 10%;
+    left: 50%; 
+    transform: translate(-50%); 
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    min-width: 60%;
+}
+
+.text-block-bottom {
+   background-color: rgba(237, 128, 116, 0.8);
+    color:  #0b3037;
+    font-size: 4vw;
+    font-weight: 700;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    min-width: 60%;
+}
+
+#espresso-img {
+    background-image: url(../images/espresso-wb.jpg);
+    margin-top: 3rem;
+}
+#warehouse-img {
+    background-image: url(../images/thelab-b&w.jpg);
+}
+#kalita-img {
+    background-image: url(../images/kalita-v60.jpg);
+}
+
+.nav-btn {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
 /* Body */
 
 body {
   font-family: "Kumh Sans", sans-serif;
   font-size: 1.6rem;
+  background-color: #f8f8ff;
 }
-
-
-/* Hero */
-
-.hero {
-    width: 100%;
-    height: 80vh;
 
 /* Footer */
 
 footer {
-  background-color: #f8f8ffff;
+  background-color: #f8f8ff;
   color: #0b3037;
   width: 100vw;
   position: fixed;
@@ -97,13 +161,13 @@ footer {
   margin: 1rem;
 }
 
-
-#subscribebtn {
+.buttons {
   color: #0b3037;
   background-color: #ed8074;
   border-radius: 1rem;
   border-color: #0b3037;
-  box-shadow: 5rem;
+  display: inline-block;
+  font-size: 3vw;
 }
 
 #newsform {
@@ -148,4 +212,5 @@ footer {
     width: 5vw;
     margin-left: 2vw;
   }
+
 }

@@ -104,16 +104,16 @@ For instance, the navigation bar will collapse into a hambuger icon in mobile de
 ![Color Scheme](wireframes/tcp_color_scheme.png)
 
 
-* congo-pink: #ed8074ff
+* congo-pink: #ed8074
 The congo pink will be the color standing out the most as it will be used for the call-to-action buttons.
 
-* metallic-seaweed: #1d7a8cff;
+* metallic-seaweed: #1d7a8c;
 The metallic-seaweed color will be and "aid" color. It will be used, if necesssary, to separate sections or highlight borders.
 
-* outer-space-crayola: #0b3037ff;
+* outer-space-crayola: #0b3037;
 This color will be the used throughout the website as the main text color. It has a great [contrast](https://coolors.co/contrast-checker/0b3037-f8f8ff) with the background.
 
-* ghost-white: #f8f8ffff;
+* ghost-white: #f8f8ff;
 
 The overall website will have a clean and fresh background, reason why I have opted by the Ghost White.
 This particular color has a blue-purple accent that eases the transition to the three colors already mentioned.
