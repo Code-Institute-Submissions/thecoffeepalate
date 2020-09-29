@@ -59,7 +59,7 @@ html {
 /* Logo */
 
 #navbar-logo {
-  width: 10vw;
+  width: min(max(2rem, 10vw),7rem);
   height: auto;
   margin-left: 2vw;
 }
@@ -79,15 +79,13 @@ html {
     width: 100%;
     height: 80vh;
     filter: sepia(50%);
-    text-align: center;
-    /* position: relative; */
-    
+    text-align: center;    
 }
 
 .text-block-top {
     background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
-    font-size: 4vw; 
+    font-size: min(max(1.4rem, 4vw),38px);
     font-weight: 700;
     position: absolute;
     top: 10%;
@@ -100,9 +98,9 @@ html {
 }
 
 .text-block-bottom {
-   background-color: rgba(237, 128, 116, 0.8);
+    background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
-    font-size: 4vw;
+    font-size: min(max(1.4rem, 4vw),38px);
     font-weight: 700;
     position: absolute;
     bottom: 20%;
@@ -125,20 +123,20 @@ html {
     background-image: url(../images/kalita-v60.jpg);
 }
 
-.nav-btn {
+.container-btn {
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    font-size: min(max(1.4rem, 3vw),3.5rem);
 }
 
 /* Body */
 
 body {
   font-family: "Kumh Sans", sans-serif;
-  font-size: 1.6rem;
   background-color: #f8f8ff;
 }
 
@@ -167,7 +165,10 @@ footer {
   border-radius: 1rem;
   border-color: #0b3037;
   display: inline-block;
-  font-size: 3vw;
+}
+
+#sub-button {
+    font-size: min(max(1.4rem, 3vw),2rem);
 }
 
 #newsform {
@@ -175,7 +176,7 @@ footer {
 }
 
 #inlineFormInput {
-    font-size: 1.5rem;
+    font-size: min(max(1.4rem, 1vw),2rem);
     margin: auto;
     max-width: 40rem;
 }
@@ -184,12 +185,12 @@ footer {
 
 @media (min-width: 992px) {
   .nav-link {
-    font-size: 1vw;
+    font-size: min(max(1rem, 1vw),2rem);
+    font-weight: 700;
     margin: 0.5vw;
     text-align: center;
     width: 16vw;
-    height: 5vw;
-    padding: 1vw;
+    height: 4.5vw;
     border-radius: 1vw;
     box-shadow: 0.2vw -0.2vw 0.1vw #0b3037;
   }
@@ -199,7 +200,7 @@ footer {
   }
 
   .nav-icons {
-    font-size: 2vw;
+    font-size: 1.5vw;
     width: 100%;
   }
 
@@ -212,5 +213,4 @@ footer {
     width: 5vw;
     margin-left: 2vw;
   }
-
 }
