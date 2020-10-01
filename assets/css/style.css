@@ -112,9 +112,12 @@ html {
     min-width: 60%;
 }
 
+.top-container-img {
+        margin-top: 6rem;
+}
+
 #espresso-img {
     background-image: url(../images/espresso-wb.jpg);
-    margin-top: 6rem;
 }
 #warehouse-img {
     background-image: url(../images/thelab-b&w.jpg);
