@@ -155,6 +155,15 @@ body {
     font-size: min(max(1.4rem, 2vw),3rem);
 }
 
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+
+.fa-arrow-circle-right, .fa-arrow-circle-left {
+    color:#ed8074;
+    font-size: min(max(1.4rem, 2vw),3rem);
+}
+
 /* Footer */
 
 footer {
