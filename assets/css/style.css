@@ -142,7 +142,17 @@ html {
 
 body {
   font-family: "Kumh Sans", sans-serif;
-  background-color: #f8f8ff;
+  background-color: #f8f8ff; 
+  }
+
+/* Carousel */
+
+.carousel-caption {
+    background-color: rgba(237, 128, 116, 0.8);
+    color:  #0b3037;
+    padding: 0;
+    position: unset;
+    font-size: min(max(1.4rem, 2vw),3rem);
 }
 
 /* Footer */
