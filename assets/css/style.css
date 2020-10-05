@@ -96,7 +96,21 @@ html {
     text-align: center;
     display: inline-block;
     min-width: 60%;
-    z-index: 999998;
+}
+
+.text-block-middle {
+    background-color: rgba(248, 248, 255, 0.8);
+    color:  #0b3037;
+    font-size: min(max(1.3rem, 2vw),24px);
+    font-weight: 700;
+    position: absolute;
+    top: 20%;
+    left: 50%; 
+    transform: translate(-50%); 
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+    height: 70%
 }
 
 .text-block-bottom {
@@ -115,7 +129,7 @@ html {
 }
 
 .top-container-img {
-        margin-top: 6rem;
+    margin-top: 6rem;
 }
 
 #espresso-img {
@@ -151,8 +165,11 @@ body {
     background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
     padding: 0;
-    position: unset;
-    font-size: min(max(1.4rem, 2vw),3rem);
+    font-size: min(max(1.4rem, 1.8vw),2rem);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin: 0.5vw 0;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -162,6 +179,11 @@ body {
 .fa-arrow-circle-right, .fa-arrow-circle-left {
     color:#ed8074;
     font-size: min(max(1.4rem, 2vw),3rem);
+}
+
+p {
+    text-align: justify;
+    margin: 1vw;
 }
 
 /* Footer */
