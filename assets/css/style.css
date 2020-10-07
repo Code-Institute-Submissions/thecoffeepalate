@@ -130,7 +130,7 @@ html {
 }
 
 .top-container-img {
-    margin-top: 6rem;
+    margin-top: auto;
 }
 
 #espresso-img {
@@ -233,7 +233,6 @@ p {
     text-align: unset;
     font-size: min(max(1rem, 1vw),2rem);
     align-content: center;
-    
 }
 
 /* Footer */
