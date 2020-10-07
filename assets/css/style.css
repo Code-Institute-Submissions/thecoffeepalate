@@ -191,6 +191,45 @@ p {
     margin: 1vw;
 }
 
+
+/* Carousel Store */
+
+.originsblock {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.percentagelist {
+    width: 50vw;
+    height: auto;
+    font-size: min(max(1rem, 2vw),3rem);
+    text-overflow: ellipsis;
+    color: inherit;
+}
+
+.input-group-text {
+    min-width: 10vw;
+    padding: 0;
+    justify-content: center;
+    background-color: unset;
+    border: unset;
+    margin-right: 1vw;
+    color: inherit;
+    font-size: min(max(1.1rem, 2.1vw),3.5rem);
+}
+
+.npbuttons {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
 /* Footer */
 
 footer {
@@ -213,8 +252,9 @@ footer {
   color: #0b3037;
   background-color: #ed8074;
   border-radius: 1rem;
-  border-color: #0b3037;
   display: inline-block;
+  padding: 1px 6px;
+  border: 0.2rem solid #0b3037;
 }
 
 #sub-button {
