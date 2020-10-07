@@ -3,65 +3,65 @@
 /* HTML */
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 /* Navbar */
 
 #navbar-tcp {
-  background-color: #f8f8ff;
-  color: #0b3037;
-  text-transform: uppercase;
-  letter-spacing: 1vw;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  z-index: 999999;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
+    background-color: #f8f8ff;
+    color: #0b3037;
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
 .nav-link {
-  background-color: #ed8074;
-  color: #0b3037;
-  font-size: 3vw;
-  font-family: "Allerta Stencil", sans-serif;
-  margin: 1vw 2vw;
-  text-align: center;
-  border-radius: 1vw;
+    background-color: #ed8074;
+    color: #0b3037;
+    font-size: 3vw;
+    font-family: "Allerta Stencil", sans-serif;
+    margin: 1vw 2vw;
+    text-align: center;
+    border-radius: 1vw;
 }
 
 #navbar-brand {
-  font-family: "Allerta Stencil", sans-serif;
-  font-size: 5vw;
-  color: #0b3037;
-  padding: 0;
+    font-family: "Allerta Stencil", sans-serif;
+    font-size: 5vw;
+    color: #0b3037;
+    padding: 0;
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: #0b3037;
-  border-width: 0.2vw;
-  border-style: groove;
-  box-shadow: 0.2vw -0.2vw 0.1vw #0b3037;
-  padding: 0;
-  width: 5vw;
-  height: 5vw;
-  margin-right: 2vw;
+    border-color: #0b3037;
+    border-width: 0.2vw;
+    border-style: groove;
+    box-shadow: 0.2vw -0.2vw 0.1vw #0b3037;
+    padding: 0;
+    width: 5vw;
+    height: 5vw;
+    margin-right: 2vw;
 }
 
 .fas.fa-coffee {
-  color: #0b3037;
-  font-size: 3vw;
-  display: grid;
+    color: #0b3037;
+    font-size: 3vw;
+    display: grid;
 }
 
 /* Logo */
 
 #navbar-logo {
-  width: min(max(2rem, 10vw),7rem);
-  height: auto;
-  margin-left: 2vw;
+    width: min(max(2rem, 10vw),7rem);
+    height: auto;
+    margin-left: 2vw;
 }
 
 /* Hero Container*/
@@ -160,11 +160,11 @@ html {
 /* Body */
 
 body {
-  font-family: "Kumh Sans", sans-serif;
-  background-color: #f8f8ff; 
+    font-family: "Kumh Sans", sans-serif;
+    background-color: #f8f8ff; 
   }
 
-/* Carousel */
+/* Carousels */
 
 .carousel-caption {
     background-color: rgba(237, 128, 116, 0.8);
@@ -227,34 +227,40 @@ p {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+}
 
+#termsandconditions {
+    text-align: unset;
+    font-size: min(max(1rem, 1vw),2rem);
+    align-content: center;
+    
 }
 
 /* Footer */
 
 footer {
-  background-color: #f8f8ff;
-  color: #0b3037;
-  width: 100vw;
-  bottom: 0;
-  padding: 0;
-  margin: 0;
+    background-color: #f8f8ff;
+    color: #0b3037;
+    width: 100vw;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .fab,
 .far {
-  color: #ed8074;
-  font-size: 2rem;
-  margin: 1rem;
+    color: #ed8074;
+    font-size: 2rem;
+    margin: 1rem;
 }
 
 .buttons {
-  color: #0b3037;
-  background-color: #ed8074;
-  border-radius: 1rem;
-  display: inline-block;
-  padding: 1px 6px;
-  border: 0.2rem solid #0b3037;
+    color: #0b3037;
+    background-color: #ed8074;
+    border-radius: 1rem;
+    display: inline-block;
+    padding: 1px 6px;
+    border: 0.2rem solid #0b3037;
 }
 
 #sub-button {
