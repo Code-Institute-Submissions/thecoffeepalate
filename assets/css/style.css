@@ -110,7 +110,8 @@ html {
     text-align: center;
     display: inline-block;
     width: 80%;
-    height: 70%
+    height: 70%;
+    overflow: auto;
 }
 
 .text-block-bottom {
@@ -142,7 +143,7 @@ html {
     background-image: url(../images/kalita-v60.jpg);
 }
 
-#couple-img {
+.couple-img {
     background-image: url(../images/couple.jpg)
 }
 
