@@ -1,9 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Kumbh+Sans:wght@300;400;700&display=swap");
 
-/* HTML */
-
 html {
     font-size: 62.5%;
+}
+
+body {
+    font-family: "Kumh Sans", sans-serif;
+    background-color: #f8f8ff; 
+  }
+
+p {
+    text-align: justify;
+    margin: 1vw;
+}
+
+caption {
+    font-size: 
 }
 
 /* Navbar */
@@ -86,7 +98,7 @@ html {
 .text-block-top {
     background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
-    font-size: min(max(1.4rem, 4vw),38px);
+    font-size: min(max(1.4rem, 3.8vw),30px);
     font-weight: 700;
     position: absolute;
     top: 10%;
@@ -157,12 +169,6 @@ html {
     font-size: min(max(1.4rem, 3vw),3.5rem);
 }
 
-/* Body */
-
-body {
-    font-family: "Kumh Sans", sans-serif;
-    background-color: #f8f8ff; 
-  }
 
 /* Carousels */
 
@@ -186,17 +192,11 @@ body {
     font-size: min(max(1.4rem, 2vw),3rem);
 }
 
-p {
-    text-align: justify;
-    margin: 1vw;
-}
-
-
 /* Carousel Store */
 
 .originsblock {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -205,8 +205,7 @@ p {
 .percentagelist {
     width: 50vw;
     height: auto;
-    font-size: min(max(1rem, 2vw),3rem);
-    text-overflow: ellipsis;
+    font-size: min(max(1rem, 1.8vw),3rem);
     color: inherit;
 }
 
@@ -229,10 +228,15 @@ p {
     transform: translate(-50%, -50%);
 }
 
-#termsandconditions {
+.smalltext {
     text-align: unset;
     font-size: min(max(1rem, 1vw),2rem);
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;}
+
+.p-intro {
+    text-align: center;
 }
 
 /* Footer */
