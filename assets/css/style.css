@@ -292,6 +292,7 @@ footer {
     height: 4.5vw;
     border-radius: 1vw;
     box-shadow: 0.2vw -0.2vw 0.1vw #0b3037;
+    padding-top: 1.2vh;
   }
 
   #nav-blend {
