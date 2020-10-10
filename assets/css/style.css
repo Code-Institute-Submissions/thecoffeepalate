@@ -180,6 +180,7 @@ p {
 
 .carousel-control-next, .carousel-control-prev {
     opacity: 1;
+    width: 10%;
 }
 
 .fa-arrow-circle-right, .fa-arrow-circle-left {
