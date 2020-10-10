@@ -18,6 +18,7 @@ caption {
     font-size: 
 }
 
+
 /* Navbar */
 
 #navbar-tcp {
@@ -189,6 +190,11 @@ caption {
 .fa-arrow-circle-right, .fa-arrow-circle-left {
     color:#ed8074;
     font-size: min(max(1.4rem, 2vw),3rem);
+}
+
+.graphimg {
+    width: 100%;
+    height: auto;
 }
 
 /* Carousel Store */
