@@ -300,6 +300,17 @@ footer {
     padding-top: 1.2vh;
   }
 
+  .nav-link:hover{
+    background: linear-gradient(120deg, #f8f8ff 15%, #ed8074);    
+    color: #0b3037;  
+    }  
+
+  .nav-link:active{
+    background: linear-gradient(120deg, #f8f8ff 15%, #ed8074);    
+    color: #0b3037;
+    }
+  }
+
   #nav-blend {
     display: none;
   }
