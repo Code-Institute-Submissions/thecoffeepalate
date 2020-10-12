@@ -260,12 +260,19 @@ footer {
 .buttons {
     color: #0b3037;
     background-color: #ed8074;
+    transition: background-color 2s;
     border-radius: 3rem;
     display: inline-block;
     padding: 1px 6px;
-    border: 0.2rem solid #0b3037;
+    border: 0.3rem solid #0b3037;
     font-weight: 700;
     font-size: min(max(1.4rem, 3vw),2rem);
+}
+
+.buttons:hover{
+    background: linear-gradient(120deg, #f8f8ff 15%, #ed8074);    
+    color: #0b3037;
+    text-decoration: unset;
 }
 
 #newsform {
