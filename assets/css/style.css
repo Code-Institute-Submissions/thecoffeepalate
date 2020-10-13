@@ -103,7 +103,7 @@ p {
     text-transform: uppercase;
     text-align: center;
     display: inline-block;
-    min-width: 60%;
+    width: 80%;
 }
 
 .text-block-middle {
@@ -136,6 +136,20 @@ p {
     min-width: 60%;
 }
 
+.subscr-section {
+    height: 30vh;
+}
+
+.text-block-subscr {
+    height: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%; 
+    transform: translate(-50%); 
+
+}
+
+
 .top-container-img {
     margin-top: 3rem;
 }
@@ -148,6 +162,10 @@ p {
 }
 #kalita-img {
     background-image: url(../images/kalita-v60.jpg);
+}
+
+#coffee-newsletter {
+    background-image: url(../images/coffee_newsletter.jpg)
 }
 
 .couple-img {
