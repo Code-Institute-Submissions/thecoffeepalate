@@ -55,7 +55,7 @@ p {
     padding: 0;
     width: 5vw;
     height: 5vw;
-    margin-right: 2vw;
+    margin-right: 2rem;
 }
 
 .fas.fa-coffee {
@@ -271,8 +271,12 @@ footer {
 .fab,
 .far {
     color: #ed8074;
-    font-size: 2rem;
     margin: 1rem;
+}
+
+#news-icon-nav {
+    color: unset;
+    margin: 0;
 }
 
 .buttons {
@@ -307,15 +311,14 @@ footer {
 
 @media (min-width: 992px) {
   .nav-link {
-    font-size: min(max(1rem, 1vw),2rem);
+   font-size: min(max(1rem, 1vw),2rem);
     font-weight: 700;
+    border-top: double #ed8074;
+    border-bottom: double #ed8074;
+    background-color: unset;
+    border-radius: unset;
     margin: 0.5vw;
-    text-align: center;
-    width: 16vw;
-    height: 4.5vw;
-    border-radius: 1vw;
-    box-shadow: 0.2vw -0.2vw 0.1vw #0b3037;
-    padding-top: 1.2vh;
+    height: auto;
   }
 
   .nav-link:hover{
@@ -327,7 +330,6 @@ footer {
     background: linear-gradient(120deg, #f8f8ff 15%, #ed8074);    
     color: #0b3037;
     }
-  }
 
   #nav-blend {
     display: none;
@@ -335,7 +337,6 @@ footer {
 
   .nav-icons {
     font-size: 1.5vw;
-    width: 100%;
   }
 
   #navbar-brand {
