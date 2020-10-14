@@ -279,6 +279,10 @@ footer {
     margin: 0;
 }
 
+#social-links {
+    font-size: 2rem;
+}
+
 .buttons {
     color: #0b3037;
     background-color: #ed8074;
