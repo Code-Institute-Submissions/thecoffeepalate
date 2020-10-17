@@ -14,6 +14,10 @@ p {
     margin: 1vw;
 }
 
+a {
+    color: #ed8074;
+}
+
 /* Navbar */
 
 #navbar-tcp {
@@ -311,9 +315,18 @@ footer {
     max-width: 40rem;
 }
 
+.percentagelist:focus, .form-control:focus{
+    border-color: #ed8074;
+    box-shadow: 0 0 0 0.4rem rgba(237, 128, 116, 0.25);
+}
 /* Media Queries */
 
 @media (min-width: 992px) {
+  a:hover {
+    color:#1d7a8c;
+    text-decoration: none;
+}  
+
   .nav-link {
     font-size: min(max(1rem, 1vw),2rem);
     font-weight: 700;
