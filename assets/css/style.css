@@ -271,10 +271,8 @@ a {
 }
 
 .smalltext {
-    font-size: min(max(1rem, 1vw),2rem);
-    display: flex;
-    justify-content: center;
-    line-height: 2vh
+    font-size: min(max(0.8rem, 1vw),2rem);
+    display: inline;
 }
 
 .p-intro {
