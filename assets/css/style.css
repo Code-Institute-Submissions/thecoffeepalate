@@ -203,6 +203,10 @@ a {
 
 /* Carousels */
 
+.h-90 {
+    height: 90%;
+}
+
 .carousel-caption {
     background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
