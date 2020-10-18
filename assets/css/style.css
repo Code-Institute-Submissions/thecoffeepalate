@@ -12,6 +12,7 @@ body {
 p {
     text-align: justify;
     margin: 1vw;
+    color: #0b3037;
 }
 
 a {
@@ -140,6 +141,19 @@ a {
     min-width: 60%;
 }
 
+#text-block-warning > p {
+    background-color: rgba(237, 128, 116, 0.8);
+    color:  #0b3037;
+    font-size: min(max(1.1rem, 2vw),26px);
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-block;
+    min-width: 60%;
+    text-align: center;
+}
+
 .subscr-section {
     height: 30vh;
 }
@@ -232,9 +246,9 @@ a {
 }
 
 .input-group-text {
-    min-width: 10vw;
+    min-width: 15vw;
     padding: 0;
-    justify-content: center;
+    justify-content: left;
     background-color: unset;
     border: unset;
     margin-right: 1vw;
