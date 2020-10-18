@@ -141,7 +141,7 @@ a {
     min-width: 60%;
 }
 
-#text-block-warning > p {
+.text-block-warning > p {
     background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
     font-size: min(max(1.1rem, 2vw),26px);
@@ -230,12 +230,16 @@ a {
 
 /* Carousel Store */
 
-.originsblock {
+.formcontentblock {
     position: absolute;
     top: 40%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+}
+
+.formcontentblock > .form-check {
+    line-height: 4rem;
 }
 
 .percentagelist {
