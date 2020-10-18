@@ -349,7 +349,7 @@
                                             <a href="#carouselStoreFade" role="button" data-slide="prev">
                                                 <span class="buttons" aria-hidden="true">Previous</span>
                                             </a>
-                                            <button class="buttons" type="submit" ><i class="fas fa-shopping-cart"></i> Let's blend</button>
+                                            <button class="buttons" type="submit" data-toggle="modal" data-target="#order"><i class="fas fa-shopping-cart"></i> Let's blend</button>
                                         </div>
                                     </div>
                                 </div>
@@ -374,7 +374,7 @@
                 </div>
         </div>
     </section>
-        <div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="Subscription module confirmation" aria-hidden="true">
+        <div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="Subscription modal confirmation" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -392,6 +392,24 @@
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="order" tabindex="-1" role="dialog" aria-labelledby="Order modal confirmation" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="#order"><i class="fas fa-shopping-cart"></i> Thank you for placing your oder</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                <div class="modal-body">
+                    <p>You will be receiving your invoice by email shortly.<br>Please proceed with its payment within <b>5 days</b> so we can start processing your oder.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn buttons" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+        </div>        
 	<footer>
 		<div class="row">
             <div class="col-12 d-flex justify-content-center align-items-center">
