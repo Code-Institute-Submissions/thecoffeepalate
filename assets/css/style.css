@@ -31,7 +31,7 @@ a {
     z-index: 999999;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .nav-link {
@@ -152,7 +152,6 @@ a {
     transform: translate(-50%); 
 
 }
-
 
 .top-container-img {
     margin-top: 3rem;
@@ -319,6 +318,36 @@ footer {
     border-color: #ed8074;
     box-shadow: 0 0 0 0.4rem rgba(237, 128, 116, 0.25);
 }
+
+
+/* Bootstrap modules */
+
+.modal-content {
+    width: 90%;
+    color: #0b3037;
+}
+
+.modal-header {
+    background-color: rgba(237, 128, 116, 0.8);
+}
+
+.modal-title {
+    font-size: min(max(1.4rem, 3.8vw),30px);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.modal-title > .far {
+    color: inherit;
+}
+
+.modal-body {
+    font-size: min(max(1.3rem, 2vw),24px);
+    text-align: justify;
+}
+
+
 /* Media Queries */
 
 @media (min-width: 992px) {
