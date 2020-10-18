@@ -57,7 +57,7 @@
                                                 <div class="input-group-prepend">
                                                     <label class="input-group-text" for="brazil">Brazil</label>
                                                 </div>
-                                                <select class="custom-select percentagelist" id="brazil">
+                                                <select class="custom-select dropdownlist" id="brazil">
                                                     <option value="0">0%</option>
                                                     <option value="1">5%</option>
                                                     <option value="2">10%</option>
@@ -85,7 +85,7 @@
                                                 <div class="input-group-prepend">
                                                     <label class="input-group-text" for="colombia">Colombia</label>
                                                 </div>
-                                                <select class="custom-select percentagelist" id="colombia">
+                                                <select class="custom-select dropdownlist" id="colombia">
                                                     <option value="0">0%</option>
                                                     <option value="1">5%</option>
                                                     <option value="2">10%</option>
@@ -113,7 +113,7 @@
                                                 <div class="input-group-prepend">
                                                     <label class="input-group-text" for="kenya">Kenya</label>
                                                 </div>
-                                                <select class="custom-select percentagelist" id="kenya">
+                                                <select class="custom-select dropdownlist" id="kenya">
                                                     <option value="0">0%</option>
                                                     <option value="1">5%</option>
                                                     <option value="2">10%</option>
@@ -141,7 +141,7 @@
                                                 <div class="input-group-prepend">
                                                     <label class="input-group-text" for="vietnam">Vietnam</label>
                                                 </div>
-                                                <select class="custom-select percentagelist" id="vietnam">
+                                                <select class="custom-select dropdownlist" id="vietnam">
                                                     <option value="0">0%</option>
                                                     <option value="1">5%</option>
                                                     <option value="2">10%</option>
@@ -169,7 +169,7 @@
                                                 <div class="input-group-prepend">
                                                     <label class="input-group-text" for="ethiopia">Ethiopia</label>
                                                 </div>
-                                                <select class="custom-select percentagelist" id="ethiopia">
+                                                <select class="custom-select dropdownlist" id="ethiopia">
                                                     <option value="0">0%</option>
                                                     <option value="1">5%</option>
                                                     <option value="2">10%</option>
@@ -195,7 +195,7 @@
                                             </div>
                                     </div>
                                     <div class="text-block-warning">
-                                    <p><i class="fas fa-exclamation"></i> Please make sure that the sum of your percantages <b>equals 100%</b></p>
+                                    <p><i class="fas fa-exclamation"></i> Please make sure that the sum of your percentages <b>equals 100%</b></p>
                                     </div>
                                     <div class="row">
                                         <div class="col npbuttons">
@@ -216,26 +216,26 @@
                                 <div class="text-block-middle">
                                     <p class="p-intro">Pick the best roasting profile that will highlight the cup attributes that you love the most. Visit <a href="thelab.html#carouselRoastingFade" aria-label="Navigate to the roasting profiles section at The Lab">The Lab</a> if you have any doubts about these profiles.</p>
                                     <div class="col formcontentblock">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="roastingradios" id="cinnamon" value="0" checked>
-                                                <label class="form-check-label" for="cinnamon">Cinnamon Roast</label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="roastingradios" id="cityroast" value="1">
-                                                <label class="form-check-label" for="cityroast">City Roast</label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="roastingradios" id="fullcity" value="2">
-                                                <label class="form-check-label" for="fullcity">Full City Roast</label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="roastingradios" id="american" value="3">
-                                                <label class="form-check-label" for="american">American Roast</label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="roastingradios" id="french" value="4">
-                                                <label class="form-check-label" for="french">French Roast</label>
-                                            </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="roastingradios" id="cinnamon" value="0" checked>
+                                            <label class="form-check-label" for="cinnamon">Cinnamon Roast</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="roastingradios" id="cityroast" value="1">
+                                            <label class="form-check-label" for="cityroast">City Roast</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="roastingradios" id="fullcity" value="2">
+                                            <label class="form-check-label" for="fullcity">Full City Roast</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="roastingradios" id="american" value="3">
+                                            <label class="form-check-label" for="american">American Roast</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="roastingradios" id="french" value="4">
+                                            <label class="form-check-label" for="french">French Roast</label>
+                                        </div>
                                     </div>
                                     <div class="text-block-warning">
                                     <p><i class="fas fa-exclamation"></i> Remember <i class="fas fa-exclamation"></i><br>The lower the rosting degree, the higher the acidity. The higher the roasting degree, the higher the bitterness</p>
@@ -262,33 +262,107 @@
                                 <div class="text-block-middle">
                                     <p class="p-intro">We're almost done!</p>
                                     <div class="row">
-                                        <div class="col">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="whole" id="whole" value="0" checked>
-                                                <label class="form-check-label" for="whole">Whole Beans</label>
-                                                <span class="smalltext">Tip: Pick this option if you have a grinder at home</span>
+                                        <div class="col formcontentblock">
+                                            <div class="row">
+                                                <div class="col-6 form-check">
+                                                    <input class="form-check-input" type="checkbox" name="grindbuttons" id="whole" value="0" checked>
+                                                    <label class="form-check-label" for="whole">Whole Beans</label>
+                                                        <select class="form-control">
+                                                        <option disabled selected>How many bags?</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+                                                            <option>5</option>
+                                                        </select>                                            
+                                                        <select class="form-control">
+                                                            <option disabled selected>Tip: Pick this option if you have a grinder at home</option>
+                                                            <option>250g - € 4.95 / bag</option>
+                                                            <option>500g - € 6.95 / bag</option>
+                                                            <option>1 Kg - € 11.95 / bag</option>
+                                                        </select>                                            
+                                                </div>
+                                                <div class="col-6 form-check">
+                                                    <input class="form-check-input" type="checkbox" name="grindbuttons" id="thin" value="1">
+                                                    <label class="form-check-label" for="thin">Thin</label>
+                                                        <select class="form-control">
+                                                        <option disabled selected>How many bags?</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+                                                            <option>5</option>
+                                                        </select>                                            
+                                                        <select class="form-control">
+                                                            <option disabled selected>Tip: Recommendend for Turkish Coffee</option>
+                                                            <option>250g - € 4.95 / bag</option>
+                                                            <option>500g - € 6.95 / bag</option>
+                                                            <option>1 Kg - € 11.95 / bag</option>
+                                                        </select>
+                                                </div>
                                             </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="thin" id="thin" value="1">
-                                                <label class="form-check-label" for="thin">Thin</label>
-                                                <span class="smalltext">Tip: Recommendend for Turkish Coffee</span>
+                                            <div class="row">
+                                                <div class="col-6 form-check">
+                                                    <input class="form-check-input" type="checkbox" name="grindbuttons" id="mthin" value="2">
+                                                    <label class="form-check-label" for="mthin"> Medium-Thin</label>
+                                                        <select class="form-control">
+                                                        <option disabled selected>How many bags?</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+                                                            <option>5</option>
+                                                        </select>                                            
+                                                        <select class="form-control">
+                                                            <option disabled selected>Tip: For espresso lovers and italian coffee makers</option>
+                                                            <option>250g - € 4.95 / bag</option>
+                                                            <option>500g - € 6.95 / bag</option>
+                                                            <option>1 Kg - € 11.95 / bag</option>
+                                                        </select>
+                                                </div>
+                                                <div class="col-6 form-check">
+                                                    <input class="form-check-input" type="checkbox" name="grindbuttons" id="mcoarse" value="3">
+                                                    <label class="form-check-label" for="mcoarse">Medium-Coarse</label>
+                                                        <select class="form-control">
+                                                        <option disabled selected>How many bags?</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+                                                            <option>5</option>
+                                                        </select>                                            
+                                                        <select class="form-control">
+                                                            <option disabled selected>Tip: For Chemex and V60</option>
+                                                            <option>250g - € 4.95 / bag</option>
+                                                            <option>500g - € 6.95 / bag</option>
+                                                            <option>1 Kg - € 11.95 / bag</option>
+                                                        </select>
+                                                </div>
                                             </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="mthin" id="mthin" value="2">
-                                                <label class="form-check-label" for="mthin"> Medium-Thin</label>
-                                                <span class="smalltext">Tip: For espresso lovers and italian coffee makers</span>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="mcoarse" id="mcoarse" value="3">
-                                                <label class="form-check-label" for="mcoarse">Medium-Coarse</label>
-                                                <span class="smalltext">Tip: For Chemex and V60.</span>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="coarse" id="coarse" value="4">
-                                                <label class="form-check-label" for="coarse">Coarse</label>
-                                                <span class="smalltext">Tip: For French press and Cold Brews</span>
+                                            <div class="row d-flex">
+                                                <div class="col-6 form-check align-self-center">
+                                                    <input class="form-check-input" type="checkbox" name="grindbuttons" id="coarse" value="4">
+                                                    <label class="form-check-label" for="coarse">Coarse</label>
+                                                        <select class="form-control">
+                                                        <option disabled selected>How many bags?</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+                                                            <option>5</option>
+                                                        </select>                                            
+                                                        <select class="form-control">
+                                                            <option disabled selected>Tip: For French press and Cold Brews</option>
+                                                            <option>250g - € 4.95 / bag</option>
+                                                            <option>500g - € 6.95 / bag</option>
+                                                            <option>1 Kg - € 11.95 / bag</option>
+                                                        </select>
+                                                </div>
                                             </div>
                                         </div>
+                                    <div class="text-block-warning">
+                                    <p>If you require any other type of packaging do not hesitate to contact us directly via any of the social links below on the page</p>
+                                    </div>
                                     </div>
                                     <div class="row">
                                         <div class="col npbuttons">
@@ -311,7 +385,7 @@
                             <div class="row">
                                 <div class="text-block-middle">
                                     <div class="row">
-                                        <div class="col">
+                                        <div class="col mt-5">
                                             <div class="form-row ml-5 mr-5">
                                                 <div class="form-group col-lg-6">
                                                     <label for="fname">First Name</label>

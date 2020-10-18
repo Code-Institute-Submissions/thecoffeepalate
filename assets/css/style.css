@@ -150,8 +150,9 @@ a {
     left: 50%;
     transform: translate(-50%);
     display: inline-block;
-    min-width: 60%;
+    width: 100%;
     text-align: center;
+    margin: 0;
 }
 
 .subscr-section {
@@ -234,19 +235,21 @@ a {
     position: absolute;
     top: 40%;
     left: 50%;
+    /* width: unset; */
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
 
 .formcontentblock > .form-check {
-    line-height: 4rem;
+    line-height: 3rem;
 }
 
-.percentagelist {
+.dropdownlist {
     width: 50vw;
     height: auto;
     font-size: min(max(1rem, 1.8vw),3rem);
     color: inherit;
+    display: inline-block;
 }
 
 .input-group-text {
@@ -268,11 +271,11 @@ a {
 }
 
 .smalltext {
-    text-align: unset;
     font-size: min(max(1rem, 1vw),2rem);
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;}
+    line-height: 2vh
+}
 
 .p-intro {
     text-align: center;
@@ -332,7 +335,7 @@ footer {
     max-width: 40rem;
 }
 
-.percentagelist:focus, .form-control:focus{
+.dropdownlist:focus, .form-control:focus {
     border-color: #ed8074;
     box-shadow: 0 0 0 0.4rem rgba(237, 128, 116, 0.25);
 }
