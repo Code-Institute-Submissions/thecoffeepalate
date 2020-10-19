@@ -445,16 +445,16 @@
             <div class="background-container subscr-section" id="coffee-newsletter"></div>
                 <h2 class="text-block-top"> Check out firsthand what we've been working on for you!</h2>
                 <div class="text-block-middle text-block-subscr d-flex" id="newsform">
-                    <form class="col justify-content-center align-self-center">
+                    <form class="col justify-content-center align-self-center" id="subscribe-form-store">
                         <i class="far fa-newspaper"></i>
                         <label class="sr-only" for="inlineFormInput">Email</label>
                         <input type="email" class="form-control mb-1" id="inlineFormInput" placeholder="Your email here to stay tuned!" required>
-                        <button type="submit" class="mb-0 mt-2 buttons" data-toggle="modal" data-target="#subscribe">Subscribe</button>
+                        <button type="submit" class="mb-0 mt-2 buttons">Subscribe</button>
                     </form>
                 </div>
         </div>
     </section>
-        <div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="Subscription modal confirmation" aria-hidden="true">
+        <div class="modal fade" id="subscribe-store-modal" tabindex="-1" role="dialog" aria-labelledby="Subscription module confirmation" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -559,5 +559,12 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 	</script>
+<!-- Javascript for form adapted from https://anouksmet.github.io/Naturazy/  -->
+    <script>
+    $('#subscribe-form-store').submit(function (e) {
+        e.preventDefault();
+        $('#subscribe-store-modal').modal('show');
+    }); 
+    </script>
 </body>
 </html>
