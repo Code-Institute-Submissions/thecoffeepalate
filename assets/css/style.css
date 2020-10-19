@@ -124,6 +124,7 @@ a {
     display: inline-block;
     width: 80%;
     height: 70%;
+    overflow: scroll;
 }
 
 .text-block-bottom {
@@ -213,6 +214,7 @@ a {
     bottom: 0;
     left: 0;
     margin: 0.5vw 0;
+    position: relative;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -228,6 +230,7 @@ a {
 .graphimg {
     width: 100%;
     height: auto;
+    border: none !important;
 }
 
 /* Carousel Store */
