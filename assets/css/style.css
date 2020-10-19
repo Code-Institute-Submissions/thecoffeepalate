@@ -32,7 +32,6 @@ a {
     z-index: 999999;
     padding: 0;
     margin: 0;
-    /* overflow: hidden; */
 }
 
 .nav-link {
@@ -99,10 +98,10 @@ a {
 .text-block-top {
     background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
-    font-size: min(max(1.4rem, 3.8vw),30px);
+    font-size: min(max(1.5rem, 2.1vw),3.7rem);
     font-weight: 700;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%; 
     transform: translate(-50%); 
     text-transform: uppercase;
@@ -114,10 +113,10 @@ a {
 .text-block-middle {
     background-color: rgba(248, 248, 255, 0.8);
     color:  #0b3037;
-    font-size: min(max(1.3rem, 2vw),24px);
+    font-size: min(max(1.1rem, 2.1vw),2.5rem);
     font-weight: 700;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%; 
     transform: translate(-50%); 
     text-align: center;
@@ -129,7 +128,7 @@ a {
 .text-block-bottom {
     background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
-    font-size: min(max(1.4rem, 4vw),38px);
+    font-size: min(max(1.4rem, 2.1vw),3.6rem);
     font-weight: 700;
     position: absolute;
     bottom: 20%;
@@ -144,7 +143,7 @@ a {
 .text-block-warning > p {
     background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
-    font-size: min(max(1.1rem, 2vw),26px);
+    font-size: min(max(1.1rem, 2.1vw),2.5rem);
     position: absolute;
     bottom: 15%;
     left: 50%;
@@ -165,7 +164,6 @@ a {
     top: 40%;
     left: 50%; 
     transform: translate(-50%); 
-
 }
 
 .top-container-img {
@@ -197,9 +195,7 @@ a {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    font-size: min(max(1.4rem, 3vw),3.5rem);
 }
-
 
 /* Carousels */
 
@@ -211,7 +207,7 @@ a {
     background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
     padding: 0;
-    font-size: min(max(1.4rem, 1.8vw),2rem);
+    font-size: min(max(1.1rem, 1.8vw),2rem);
     width: 100%;
     bottom: 0;
     left: 0;
@@ -225,7 +221,7 @@ a {
 
 .fa-arrow-circle-right, .fa-arrow-circle-left {
     color:#ed8074;
-    font-size: min(max(1.4rem, 2vw),3rem);
+    font-size: min(max(2rem, 2.5vw),4rem);
 }
 
 .graphimg {
@@ -239,32 +235,25 @@ a {
     position: absolute;
     top: 40%;
     left: 50%;
-    /* width: unset; */
     margin-right: -50%;
     transform: translate(-50%, -50%);
-}
-
-.formcontentblock > .form-check {
-    line-height: 3rem;
 }
 
 .dropdownlist {
     width: 50vw;
     height: auto;
-    font-size: min(max(1rem, 1.8vw),3rem);
+    font-size: min(max(1.1rem, 2.1vw),2.5rem);
     color: inherit;
     display: inline-block;
 }
 
 .input-group-text {
-    min-width: 15vw;
+    min-width: 17vw;
     padding: 0;
-    justify-content: left;
     background-color: unset;
     border: unset;
-    margin-right: 1vw;
     color: inherit;
-    font-size: min(max(1.1rem, 2.1vw),3.5rem);
+    font-size: min(max(1.1rem, 2.1vw),2.5rem);
 }
 
 .npbuttons {
@@ -281,6 +270,14 @@ a {
 
 .p-intro {
     text-align: center;
+}
+
+.form-control {
+    font-size: min(max(1.1rem, 2.1vw),2.5rem);
+}
+
+.form-check-label {
+    margin-left: 1vw;
 }
 
 /* Footer */
@@ -318,7 +315,7 @@ footer {
     padding: 1px 6px;
     border: 0.3rem solid #0b3037;
     font-weight: 700;
-    font-size: min(max(1.4rem, 3vw),2rem);
+    font-size: min(max(1.1rem, 2.1vw),2rem);
 }
 
 .buttons:hover{
@@ -332,18 +329,19 @@ footer {
 }
 
 #inlineFormInput {
-    font-size: min(max(1.4rem, 1vw),2rem);
+    font-size: min(max(1.1rem, 2.1vw),2rem);
     margin: auto;
     max-width: 40rem;
+    text-align: center;
 }
+
 
 .dropdownlist:focus, .form-control:focus {
     border-color: #ed8074;
     box-shadow: 0 0 0 0.4rem rgba(237, 128, 116, 0.25);
 }
 
-
-/* Bootstrap modules */
+/* Bootstrap modals */
 
 .modal-content {
     width: 90%;
@@ -355,7 +353,7 @@ footer {
 }
 
 .modal-title {
-    font-size: min(max(1.4rem, 3.8vw),30px);
+    font-size: min(max(1.5rem, 2.1vw),2.8rem);
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
@@ -366,10 +364,9 @@ footer {
 }
 
 .modal-body {
-    font-size: min(max(1.3rem, 2vw),24px);
+    font-size: min(max(1.1rem, 2.1vw),2.5rem);
     text-align: justify;
 }
-
 
 /* Media Queries */
 
@@ -377,7 +374,7 @@ footer {
   a:hover {
     color:#1d7a8c;
     text-decoration: none;
-}  
+  }
 
   .nav-link {
     font-size: min(max(1rem, 1vw),2rem);
@@ -390,16 +387,16 @@ footer {
     height: auto;
   }
 
-  .nav-link:hover{
+  .nav-link:hover {
     transition: ease-in 0.6s;
     box-shadow: inset 0 6rem 0 0 #ed8074;
     color: #0b3037;
-    }  
+  }
 
   .active{
     background-color: #ed8074;    
     color: #0b3037;
-    }
+  }
 
   #nav-blend {
     display: none;
