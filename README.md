@@ -25,7 +25,7 @@ Thank you for visiting my project and do not hesitate to contact me via GitHub i
 ---
 
 ## **UX**
-
+---
 ### **User Goals & Stories**
 
 #### **Goals**
@@ -137,7 +137,41 @@ The Blending store is the place where the magic happens. Here, the consumer can 
 
 ## **Wireframes**
 ### **Mobile** ###
+#### **V1** ####
+#### **V2** ####
 ### **Tablet** ###
+#### **V1** ####
+#### **V2** ####
 ### **Desktop** ###
+#### **V1** ####
+#### **V2** ####
 
+---
 
+## **Features**
+### **Existing Features**
+### **Future Features**
+
+---
+
+## **Languages, Libraries, Frameworks & Tools**
+### **Languages**
+### **Libraries**
+### **Frameworks**
+### **Tools**
+
+---
+
+## **Testing & Debugging**
+### **Testing**
+### **Debugging**
+
+---
+
+## **Deployment**
+
+---
+
+## **Credits & Aknowledgments**
+### **Credits**
+### **Aknowledgments**
