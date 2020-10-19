@@ -43,7 +43,7 @@
     </section>
     <section>
         <div id="carouselStoreFade" class="carousel-fade carousel slide" data-ride="carousel" data-interval="false">
-            <form>
+            <form id="order-form">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="background-container couple-img"></div>
@@ -490,7 +490,7 @@
                 </div>
             </div>
         </div>        
-        <div class="modal fade" id="order" tabindex="-1" role="dialog" aria-labelledby="Order modal confirmation" aria-hidden="true">
+        <div class="modal fade" id="order-modal" tabindex="-1" role="dialog" aria-labelledby="Order modal confirmation" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -564,6 +564,12 @@
     $('#subscribe-form-store').submit(function (e) {
         e.preventDefault();
         $('#subscribe-store-modal').modal('show');
+    }); 
+    </script>
+    <script>
+    $('#order-form').submit(function (e) {
+        e.preventDefault();
+        $('#order-modal').modal('show');
     }); 
     </script>
 </body>
