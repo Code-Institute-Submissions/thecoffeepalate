@@ -8,6 +8,7 @@ html {
 body {
     font-family: "Kumh Sans", sans-serif;
     background-color: #f8f8ff; 
+    font-size: 1.6rem;
   }
 
 p {
@@ -72,7 +73,7 @@ a {
 /* Logo */
 
 #navbar-logo {
-    width: min(max(2rem, 10vw),7rem);
+    width: min(max(2rem, 10vw), 5rem);
     height: auto;
     margin-left: 2vw;
 }
@@ -84,7 +85,7 @@ a {
     text-align: center;
 }
 
-.background-container, .carousel-item>img {
+.background-container {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -124,7 +125,6 @@ a {
     display: inline-block;
     width: 80%;
     height: 70%;
-    overflow: scroll;
 }
 
 .text-block-bottom {
@@ -156,16 +156,36 @@ a {
     margin: 0;
 }
 
-.subscr-section {
-    height: 30vh;
+.subscription-bg-img {
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 30vh;
 }
 
+.subscription-container {
+    background-color: rgba(248, 248, 255, 0.8);
+    color: #0B3037;
+    margin: 1rem auto;
+    padding: 1rem;
+    display: inline-block;
+}
+
+#subscription-heading {
+    background-color: rgba(237, 128, 116, 0.8);
+    color:  #0b3037;
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+
 .text-block-subscr {
-    height: 50%;
-    position: absolute;
-    top: 40%;
-    left: 50%; 
-    transform: translate(-50%); 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(248, 248, 255, 0.8);
+    color:  #0b3037;    
 }
 
 .top-container-img {
@@ -176,14 +196,14 @@ a {
     background-image: url(../images/espresso-wb.jpg);
 }
 #warehouse-img {
-    background-image: url(../images/thelab-b&w.jpg);
+    background-image: url(../images/lab_b&w_background.jpg);
 }
 #kalita-img {
     background-image: url(../images/kalita-v60.jpg);
 }
 
 #coffee-newsletter {
-    background-image: url(../images/coffee_newsletter.jpg)
+    background-image: url(../images/coffee_newsletter.jpg);
 }
 
 .couple-img {
@@ -201,20 +221,93 @@ a {
 
 /* Carousels */
 
-.h-90 {
-    height: 90%;
+.background-img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 60vh;    
+}
+
+#image-brazil {
+    background-image: url(../images/brazil_background.jpg);
+    }
+
+#image-colombia {
+    background-image: url(../images/colombia_background.jpg);
+    }
+
+#image-kenya {
+    background-image: url(../images/kenya_background.jpg);
+    }
+
+#image-vietnam {
+    background-image: url(../images/vietnam_background.jpg);
+    }
+
+#image-ethiopia {
+    background-image: url(../images/ethiopia_background.jpg);
+}
+
+#image-cinnamon {
+    background-image: url(../images/cinnamon_roast.jpg);
+}
+
+#image-city {
+    background-image: url(../images/city_roast.jpg);
+}
+
+#image-full-city {
+    background-image: url(../images/full_city_roast.jpg);
+}
+
+#image-american {
+    background-image: url(../images/american_roast.jpg);
+}
+
+#image-french {
+    background-image: url(../images/french_roast.jpg);
+}
+
+.body-container {
+    background-color: rgba(248, 248, 255, 0.8);
+    color: #0B3037;
+    margin: 1rem;
+}
+
+.carousel-heading {
+    background-color: rgba(237, 128, 116, 0.8);
+    font-size: 3rem;
+    color: #0b3037;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.carousel-body {
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    align-items: center;    
+}
+
+.carousel-footer {
+    background-color: rgba(237, 128, 116, 0.8);
+    font-size: 1.6rem;
+    color: #0b3037;
+    text-align: center;
+    font-weight: 700;
 }
 
 .carousel-caption {
     background-color: rgba(237, 128, 116, 0.8);
     color:  #0b3037;
     padding: 0;
-    font-size: min(max(1.1rem, 1.8vw),2rem);
+    font-size: min(max(1.6rem, 1.8vw),2rem);
     width: 100%;
     bottom: 0;
     left: 0;
     margin: 0.5vw 0;
-    position: relative;
+    position: static;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -376,7 +469,10 @@ footer {
     text-align: justify;
 }
 
+
+
 /* Media Queries */
+
 
 @media (min-width: 992px) {
   a:hover {
@@ -422,5 +518,18 @@ footer {
   #navbar-logo {
     width: 5vw;
     margin-left: 2vw;
+  }
+
+  .background-img {
+      height: 70vh;
+  }
+
+  .carousel-paragraph {
+      padding: 0 5rem;
+      font-size: 2rem;
+  }
+
+  .carousel-footer {
+      font-size: 2rem;
   }
 }
