@@ -8,12 +8,12 @@ Here comes the mockup image.
 
 Welcome to the Coffee Palate!
 
-Aren't you tired of always having to choose between hunderds of differents coffees when you go to the supermarket? Do you always end up choosing that kind of coffee that barely meet your preferences just because there is not enough information about it? Have you ever realized how big roasters are always deciding which coffee you have to drink?
-The Coffee Palate is finally here give you exactly what you are looking for in a cup of coffee! 
+Aren't you tired of always having to choose between hunderds of differents coffees when you go to the supermarket? Do you always end up choosing that kind of coffee that barely meet your preferences just because there is not enough information about it? Have you ever realized how big roasters are always deciding which coffee you must drink?
+The Coffee Palate is finally here to give you exactly what you are looking for in a cup of coffee! 
 
 You can finally stop complying with what big roasting companies think you need and adjust the coffee profile to your own specific palate.
 If every person is different, why do we have to drink the same kind of coffee, right? Coffee by convenience is no longer what you need. You deserve you own unique blend!
-Throughout this website you can learn about different coffee origins, learn about the roasting profiles and, finally, based on your brand new acquired knowledge, develop your own exclusive blend. 
+Throughout this website you can learn about different coffee origins, learn about the roasting profiles and, finally, based on your brand-new acquired knowledge, develop your own exclusive blend. 
 All of this, through an appealing, intuitive website with straight-forward and clear information.
 
 Thank you for visiting my project and do not hesitate to contact me via GitHub if you have any doubts or concerns related to The Coffee Palate project.
@@ -46,7 +46,7 @@ As a user, I want to:
 * understand about the different roasting profiles.
 * access an intuitive website, easy to navigate.
 * easily find the company contacts.
-* easily find the company's social-networks.
+* easily find the company's social networks.
 
 #### **User Requirements & Expectations**
 
@@ -58,7 +58,7 @@ As a user, I want to:
 
 #### **Expectations**
 
-* Clear information about the the steps to make my own blend.
+* Clear information about the steps to make my own blend.
 * When clicking on links to external pages, I expect the new page to be opened in a separate browser tab.
 * During the blending process, user wants to receive tips through "Tooltips".
 * Reach out to the user's specific blend throughout no more than 4 steps.
@@ -70,7 +70,7 @@ As a user, I want to:
 
 As the company owner, I want to:
 
-* Estalish the company online.
+* Establish the company online.
 * Advertise the "make your own blend" as an innovative and unique service. 
 * Attract customers to the ***art*** of blending.
 * Promote different coffee origins.
@@ -151,7 +151,7 @@ The Blending store is the place where the magic happens. Here, the consumer can 
 ## **Features**
 ### **Existing Features**
 #### ***Navigation bar***
-For the navigation bar, I have used Bootstrap to implement a responsive navbar across devices. In this case, the navbar is 100% visable in large screens, while on small/medium devices it will collapse into an hamburger menu, resulting in space saving of the real-estate.
+For the navigation bar, I have used Bootstrap to implement a responsive navbar across devices. In this case, the navbar is 100% visable in large screens, while on small/medium devices it will collapse into a hamburger menu, resulting in space saving of the real-estate.
 
 Moreover, the navbar will highlight the page where you are.
 
@@ -159,7 +159,7 @@ Moreover, the navbar will highlight the page where you are.
 #### ***Landing page***
 The landing page is displayed through 3 hero-images, each representing a separate section.
 
-On the first two sections, custom buttons were implemented in order to give the user another ossibility than the navbar tonavigate to the correspondingpages.
+On the first two sections, custom buttons were implemented to give the user another ossibility than the navbar tonavigate to the correspondingpages.
 
 The last section is the subscriptioin section, which is implemented the same way across the pages.
 
@@ -170,7 +170,7 @@ The introductory section uses a hero-image, whereas the following two section ha
 
 Implementing the carousels with other content than pictures and make it responsive through devices has been quite a challenge, resulting in some trade-offs.
 
-My first idea was to have fixed height carousels but this resulted in a very complicated way to approach variable content. See [Debugging] section.
+My first idea was to have fixed height carousels, but this resulted in a very complicated way to approach variable content. See [Debugging] section.
 
 Therefore, I saw the need to restructure the carousels so they would work properly. For that I used Bootstrap grid to make the carousel adjust to the content and turn it into a fully responsive feature across devices.
 
@@ -201,7 +201,8 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 ### **Future Features**
 * Track&Trace for each order
 * Personal profiles with history of user's purchases and blends
-* Packaging customization form, where user uploads is own brand/logo to be applied on their coffee bags
+* Validation system to guarantee that user can only proceed from first slide on TheStore form after the blend totals 100%.
+* Packaging customization form, where user uploads his/her own brand/logo to be applied on their coffee bags
 * Imediate payment of the order through credit card, [Stripe](https://stripe.com/en-nl "Stripe") and [Paypal](https://www.paypal.com/nl/home "Paypal")
 * Carousel on [TheLab] page with information on different brewing methods
 * Updates Terms&Conditions under the [GDPR](https://gdpr-info.eu/ "GDPR") on how user data is used
@@ -245,6 +246,6 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 
 ---
 
-## **Credits & Aknowledgments**
+## **Credits & Acknowledgments**
 ### **Credits**
-### **Aknowledgments**
+### **Acknowledgments**
