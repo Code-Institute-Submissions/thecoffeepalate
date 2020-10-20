@@ -150,15 +150,88 @@ The Blending store is the place where the magic happens. Here, the consumer can 
 
 ## **Features**
 ### **Existing Features**
+#### ***Navigation bar***
+For the navigation bar, I have used Bootstrap to implement a responsive navbar across devices. In this case, the navbar is 100% visable in large screens, while on small/medium devices it will collapse into an hamburger menu, resulting in space saving of the real-estate.
+
+Moreover, the navbar will highlight the page where you are.
+
+
+#### ***Landing page***
+The landing page is displayed through 3 hero-images, each representing a separate section.
+
+On the first two sections, custom buttons were implemented in order to give the user another ossibility than the navbar tonavigate to the correspondingpages.
+
+The last section is the subscriptioin section, which is implemented the same way across the pages.
+
+#### ***The Lab***
+The Lab page has been built following closely the design structure of the landing page. 
+
+The introductory section uses a hero-image, whereas the following two section have implemented a carousel each. The page body ends at the subscription section.
+
+Implementing the carousels with other content than pictures and make it responsive through devices has been quite a challenge, resulting in some trade-offs.
+
+My first idea was to have fixed height carousels but this resulted in a very complicated way to approach variable content. See [Debugging] section.
+
+Therefore, I saw the need to restructure the carousels so they would work properly. For that I used Bootstrap grid to make the carousel adjust to the content and turn it into a fully responsive feature across devices.
+
+#### ***The Store***
+The store has a similar structure to the [The-Lab] page, whereas only one carousel is used instead of two.
+On the same line as [The-Lab], this page also run into the same issues with the carousel. Insted of having variable content across slides (i.e text and graphs/diagrams) a form has been implemented.
+
+Embeeding a form that has several steps, and consequently varies in height throughout the form itself, into a carousel was quite tricky.
+To solve the responsiveness across devices, the solution passed by restructuring the carousel as explained in [Debugging] section.
+
+[FontAwesome](https://fontawesome.com/ "FontAwesome") icons where used in the carousel title to visually also inform the user on which step he/she is in placing the order. 
+
+#### ***Subscription***
+The subscription section was an idea that came across through the actual coding and not idealized in the design process, result of missing some more intereactivity with the user.
+
+Firstly, this section was implemented in the footer, but after discussing with my mentor and checking several other webpages, the decision was to implement it as an individual section to be used throughout the 3 htmls.
+
+For this section I have used the Bootstrap flex grid.
+
+#### ***Footer/Contacts***
+The contact options are placed in the footer of the page, displaying social links and e-mail options, viat [FontAwesome](https://fontawesome.com/ "FontAwesome") for the user to get in contact with the company.
+
+This is a simple and intutitive way of approaching it.
+
+#### ***Modals***
+Feeback to the user throughout the website and actions is fundamental. To address this user need, I have decided to implement modals linked to the "Susbscribe" and "Place Order" buttons. 
+
 ### **Future Features**
+* Track&Trace for each order
+* Personal profiles with history of user's purchases and blends
+* Packaging customization form, where user uploads is own brand/logo to be applied on their coffee bags
+* Imediate payment of the order through credit card, [Stripe](https://stripe.com/en-nl "Stripe") and [Paypal](https://www.paypal.com/nl/home "Paypal")
+* Carousel on [TheLab] page with information on different brewing methods
+* Updates Terms&Conditions under the [GDPR](https://gdpr-info.eu/ "GDPR") on how user data is used
 
 ---
 
 ## **Languages, Libraries, Frameworks & Tools**
 ### **Languages**
+* [HTML](https://www.w3.org/MarkUp/1995-archive/html-spec.html "HTML")
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html "CSS")
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript "Javascript")
+
 ### **Libraries**
+* [FontAwesome](https://fontawesome.com/ "FontAwesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Unsplash](https://unsplash.com/ "Unsplash)
+
 ### **Frameworks**
+* [Bootstrap](https://getbootstrap.com/ "Bootstrap")
+
 ### **Tools**
+* [Git](https://git-scm.com/ "Git")
+* [Gitpod](https://gitpod.io/ "Gitpod")
+* [W3C-Markup-validation](https://validator.w3.org/ "Markup Validator")
+* [W3C-Jigsaw](https://jigsaw.w3.org/css-validator/ "Jigsaw Validator")
+* [Google-Lightouse](https://developers.google.com/web/tools/lighthouse "Google Lighthouse") 
+* [TinyPNG](https://tinypng.com/ "Tiny PNG")
+* [Microsoft Excel](https://www.microsoft.com/en/microsoft-365/excel "Excel")
+* [Contrast-Checker](https://coolors.co/contrast-checker "Contrast Checker")
+* [Techsini](http://techsini.com/multi-mockup/ "Techsini")
 
 ---
 
