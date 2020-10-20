@@ -199,7 +199,7 @@ a {
     background-image: url(../images/lab_b&w_background.jpg);
 }
 #kalita-img {
-    background-image: url(../images/kalita-v60.jpg);
+    background-image: url(../images/kalitav60_background.jpg);
 }
 
 #coffee-newsletter {
@@ -207,7 +207,7 @@ a {
 }
 
 .couple-img {
-    background-image: url(../images/couple.jpg)
+    background-image: url(../images/couple_background.jpg)
 }
 
 .container-btn {
@@ -336,32 +336,57 @@ a {
     transform: translate(-50%, -50%);
 }
 
-.dropdownlist {
-    width: 50vw;
-    height: auto;
+ .dropdownlist {
     font-size: min(max(1.1rem, 2.1vw),2.5rem);
     color: inherit;
-    display: inline-block;
+    text-align: center;
+} 
+
+.origin-input {
+    text-align: center;
+    padding: 1rem;
 }
 
-.input-group-text {
-    min-width: 17vw;
-    padding: 0;
+ .input-group-text {
     background-color: unset;
     border: unset;
     color: inherit;
-    font-size: min(max(1.1rem, 2.1vw),2.5rem);
-}
+    font-size: min(max(1.6rem, 2.1vw),2.5rem);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 auto;
+} 
 
-.npbuttons {
-    position: absolute;
+ .npbuttons {
+    margin: 1rem auto;
+    text-align: center;
+    /* position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+} 
+
+.checkbox {
+    text-align: center;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.grind-select {
+    margin: 0.5rem auto;
+}
+
+.final-input {
+    padding: 0 10rem;
+}
+
+.contact-labels {
+    padding: 0.5rem 0;
+    font-size: min(max(1.6rem, 2.1vw),2rem);
 }
 
 .smalltext {
-    font-size: min(max(0.8rem, 1vw),2rem);
+    font-size: min(max(1.2rem, 1vw),2rem);
     display: inline;
 }
 
@@ -370,7 +395,8 @@ a {
 }
 
 .form-control {
-    font-size: min(max(1.1rem, 2.1vw),2.5rem);
+    font-size: min(max(1.6rem, 2.1vw),2rem);
+    padding: 0.5rem 0 ;
 }
 
 .form-check-input {
@@ -532,4 +558,9 @@ footer {
   .carousel-footer {
       font-size: 2rem;
   }
+
+  .checkbox {
+    text-align: left;
+    padding-left: 20rem;
+}
 }
