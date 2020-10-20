@@ -139,7 +139,7 @@ a {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 60vh;    
+    min-height: 50vh;    
 }
 
 #espresso-img {
@@ -305,7 +305,7 @@ a {
     font-size: min(max(1.6rem, 2.1vw),2.5rem);
     display: flex;
     justify-content: flex-end;
-    padding: 0;
+    padding-right: 2rem;
 } 
 
  .npbuttons {
@@ -319,12 +319,21 @@ a {
     margin: 0.5rem 0;
 }
 
+.radiobutton-input{
+    text-align: right;
+    padding-right: 5vw;
+}
+
+.radiobutton-label {
+    text-align: left;
+}
+
 .grind-select {
     margin: 0.5rem auto;
 }
 
 .final-input {
-    padding: 0 10rem;
+    padding: 0 2rem;
 }
 
 .contact-labels {
@@ -333,7 +342,7 @@ a {
 }
 
 .smalltext {
-    font-size: min(max(1.2rem, 1vw),2rem);
+    font-size: min(max(1.6rem, 1vw),2rem);
     display: inline;
 }
 
@@ -426,6 +435,13 @@ footer {
 }
 
 
+
+@media (min-width: 600px) and (min-height: 600px) {
+    .background-img {
+      height: 70vh;
+    }
+}
+
 @media (min-width: 992px) {
     
     /* General styling */
@@ -484,10 +500,11 @@ footer {
     }
 
     .background-img {
-      height: 70vh;
+      height: 80vh;
     }
 
     /* Carousel */
+
 
     .carousel-paragraph {
         padding: 0 5rem;
@@ -498,8 +515,13 @@ footer {
         font-size: 2rem;
     }
 
+    .input-group-text {
+        padding-right: 6rem;
+    }
+
     .checkbox {
         text-align: left;
-        padding-left: 20rem;
+        padding-left: 12rem;
     }
 }
+
