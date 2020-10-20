@@ -207,6 +207,7 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 * Carousel on [TheLab] page with information on different brewing methods
 * Updates Terms&Conditions under the [GDPR](https://gdpr-info.eu/ "GDPR") on how user data is used
 * Implement an interactive shopping cart so the user can visualize in real-time his/her order and correspondant pricing
+* User receive confirmation email after placing the order
 
 ---
 
@@ -230,6 +231,7 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 * [Balsamiq](https://balsamiq.com/ "Balsamiq")
 * [W3C-Markup-validation](https://validator.w3.org/ "Markup Validator")
 * [W3C-Jigsaw](https://jigsaw.w3.org/css-validator/ "Jigsaw Validator")
+* [W3C-Spell Checker](https://www.w3.org/2002/01/spellchecker "Spell Checker")
 * [Google-Lightouse](https://developers.google.com/web/tools/lighthouse "Google Lighthouse") 
 * [TinyPNG](https://tinypng.com/ "Tiny PNG")
 * [Microsoft Excel](https://www.microsoft.com/en/microsoft-365/excel "Excel")
@@ -239,24 +241,20 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 ---
 
 ## **Testing & Debugging**
-<!-- ### **Testing**
-#### **Requirements**
-* Easy navigation.
-* Interesting and pertinent content about coffee and blends.
-* Clear pricing information.
-* Good access points to contact the company.
 
-#### **Expectations** -->
+#### **Expectations**
 
 ### **Order**
 
 #### **User Stories & Requirements** ####
-* buy good quality and year-round consistent coffee.**
-* be able to select several origins to use in my blend.**
-* Clear information about the steps to make my own blend**
+* Buy good quality and year-round consistent coffee.
+* Be able to select several origins to use in my blend.
+* Clear information about the steps to make my own blend.
 * Receive feedback after submitting my order through the form.
 * During the blending process, user wants to receive tips through "Tooltips".
 * Reach out to the user's specific blend throughout no more than 4 steps.
+* Clear pricing information.
+
 
 ##### **Plan of action** #####
 ##### **Execution** #####
@@ -267,9 +265,10 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 
 ### **Knowledge acquired**
 #### **User Stories & Requirements** ####
-* User Story: be able to learn more about coffee produced worldwide.
-* User Story: get to know where my coffee comes from.
-* User Story: understand about the different roasting profiles.
+* Be able to learn more about coffee produced worldwide.
+* Get to know where my coffee comes from.
+* Understand about the different roasting profiles.
+* Interesting and pertinent content about coffee and blends.
 
 ##### **Plan of action** #####
 ##### **Execution** #####
@@ -280,9 +279,10 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 
 ### **Navigation**
 #### **User Stories & Requirements** ####
-* User Story: access an intuitive website, easy to navigate.
+* Access an intuitive website, easy to navigate.
 * Strong connection with website visual effects.
 * Links must be working properly to reach the target with any setbacks.
+* Easy navigation.
 
 ##### **Plan of action** #####
 ##### **Execution** #####
@@ -296,6 +296,7 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 * User Story: easily find the company contacts.
 * User Story: easily find the company's social networks.
 * When clicking on links to external pages, I expect the new page to be opened in a separate browser tab.
+* Good access points to contact the company.
 
 ##### **Plan of action** #####
 ##### **Execution** #####
@@ -303,15 +304,69 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 ##### **Test result** #####
 ##### **Conclusion** #####
 
+#### **Responsive testing** ####
 
 ### **Debugging**
+#### **Known Bugs & Corrections** ####
+
+##### **Bug** #####
+##### **How to reproduce the bug** #####
+##### **(Potential) Corrections** #####
+
+##### **Bug** #####
+##### **How to reproduce the bug** #####
+##### **(Potential) Corrections** #####
+
+##### **Bug** #####
+##### **How to reproduce the bug** #####
+##### **(Potential) Corrections** #####
+
+##### **Bug** #####
+##### **How to reproduce the bug** #####
+##### **(Potential) Corrections** #####
 
 ---
 
 ## **Deployment**
 
+The Coffee Palate project has been deployed via GitHub after its final push.
+
+These are the deployment steps:
+
+* 1 - Go to settings within the corresponding repository in GitHub
+* 2 - Enter the Source section within the Pages section
+* 3 - Choose the correspondant master branch on the GitHub Pages section and click save
+
+The page is now live on https://arturmpinho.github.io/thecoffeepalate/
+
+The page updates automatically after commit and push to Github any potential change.
+
 ---
 
 ## **Credits & Acknowledgments**
 ### **Credits**
-### **Acknowledgments**
+#### **Media**
+You can find all the images sources through the collection prepared [here](https://unsplash.com/collections/61301103/the-coffee-palate "Unsplash").
+
+*Sidenote*: Graphs and diagrams are own-creation.
+
+#### **Content**
+##### **Fun Facts:** #####
+https://www.cecafe.com.br/en/about-coffee/interesting-facts/
+https://www.cafedecolombia.com/particulares/historia-del-cafe-de-colombia/
+https://jporganiccoffee.com/blogs/news/10-interesting-facts-about-kenya
+https://www.backyardtravel.com/blog/8-things-to-know-about-vietnamese-coffee/
+https://www.ethiobeauty.com/article/interesting-facts-about-ethiopian-coffee
+
+##### **Coffee descriptions** #####
+https://coffeeattendant.com/2018/04/24/these-are-the-coffee-flavors-by-country/
+https://www.sucafina.com/emea/origins/vietnam?price=EUR
+
+### **Acknowledgments** 
+I would like to start thanking my mentor, [Anna_Villanueva](https://github.com/annavillanueva "Anna Villanueva Github page"), for all the inputs and guidance throughout the past months.
+
+To my friends and familiy that took time to test and re-test the website and for their valuable recommendations.
+
+Last but for sure not the least, a special thanks to my wife-to-be, Anouk, for all the suggestions, inputs, testing and above all for the extreme patience shown during this journey.
+
+Thank you all!
