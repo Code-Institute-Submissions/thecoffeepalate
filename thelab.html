@@ -1,395 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>The Coffee Palate</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Make your own coffee blend. From choosing the coffee origins to the roasting profile, your unique blend is only limited by your curiosity and imagination.">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>The Coffee Palate</title>
+    </head>
 
-<body>
-	<header>
-		<nav class="navbar navbar-expand-lg" id="navbar-tcp">
-            <a href="index.html"> <img src="assets/logo/logo_transparent.png" id="navbar-logo" alt="logo" loading="lazy"></a>
-            <span id="navbar-brand"> The Coffee Palate</span>
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-coffee"></i></button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav" id="grid-container">
-						<li class="nav-item">
-							<a class="nav-link d-flex align-items-center justify-content-center active" href="thelab.html"><i class="fas fa-flask nav-icons"></i>The Lab</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link d-flex align-items-center justify-content-center" href="thestore.html"><i class="fas fa-fingerprint nav-icons"></i>The Store</a>
-						</li>
+    <body>
+        <!-- Navigation -->
+        <header>
+            <nav class="navbar navbar-expand-lg" id="navbar-tcp">
+                <a href="index.html"> <img src="assets/logo/logo_transparent.png" id="navbar-logo" alt="logo" loading="lazy"></a>
+                <span id="navbar-brand"> The Coffee Palate</span>
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-coffee"></i></button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav" id="grid-container">
                         <li class="nav-item">
-							<a class="nav-link d-flex align-items-center justify-content-center" href="#coffee-newsletter"><i class="far fa-newspaper nav-icons" id="news-icon-nav"></i>Subscribe</a>
-						</li>
-					</ul>
-				</div>
-		</nav>
-	</header>
-	<section>
-        <div class="background-img" id="warehouse-img">
-            <div class="top-container-img d-flex h-100">
-                <div class="justify-content-center align-self-center hero-container">
-                    <h2 class="text-block-top"> Welcome to the Lab!.</h2>
-                    <div class="text-block-middle welcome-message">
-                        <p class="p-intro">Learn about different coffee origins and about several roasting profiles.
-                            <br> With your brand-new acquired knowledge you will be ready develop your own <strong>unique blend</strong>
-                        </p>
-                    </div>
-                    <h2 class="text-block-bottom">Get to know our coffees and roasting profiles!</h2>
-                </div> 
-            </div>
-        </div>
-    </section>
+                            <a class="nav-link d-flex align-items-center justify-content-center active" href="thelab.html"><i class="fas fa-flask nav-icons"></i>The Lab</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center justify-content-center" href="thestore.html"><i class="fas fa-fingerprint nav-icons"></i>The Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center justify-content-center" href="#coffee-newsletter"><i class="far fa-newspaper nav-icons" id="news-icon-nav"></i>Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-	<!-- Coffee Carousel -->
-    
-    <section>
-        <div id="carouselCoffeeFade" class="carousel-fade carousel slide" data-ride="carousel" data-interval="false"> 
-            <div class="carousel-inner">
-                <div class="carousel-item active background-img" id="image-brazil">
-                    <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading">Brazil</h5>
-                            <div class="col-sm-6 carousel-body">
-                                <p class="carousel-paragraph">
-                                Brazilian coffees are known for their sweet nutty flavors that are accompanied by a bittersweet chocolate note. 
-                                Also, very common is the hint of toast and low acidity of the Brazilian beans. 
-                                Because of those agreeable flavours and aromas, Brazilian coffee is often used in blends.
-                                </p>
-                            </div>
-                            <div class="col-sm-6">
-                                <img class="graphimg" src="assets/images/brazil_diagram.svg" alt="Brazilian Cup Profile">
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                Fun fact: Did you know that coffee is the second most consumed beverage in Brazil? The first is water.
-                            </div>
-                    <!-- Add source -->
+        <!-- Hero Container -->
+        <section>
+            <div class="background-img" id="warehouse-img">
+                <div class="top-container-img d-flex h-100">
+                    <div class="justify-content-center align-self-center hero-container">
+                        <h2 class="text-block-top"> Welcome to the Lab!.</h2>
+                        <div class="text-block-middle welcome-message">
+                            <p class="p-intro">Learn about different coffee origins and about several roasting profiles.
+                                <br> With your brand-new acquired knowledge you will be ready develop your own <strong>unique blend</strong>
+                            </p>
                         </div>
-                    </div>
+                        <h2 class="text-block-bottom">Get to know our coffees and roasting profiles!</h2>
+                    </div> 
                 </div>
-                <div class="carousel-item background-img" id="image-colombia">
-                    <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading">Colombia</h5>
-                            <div class="col-sm-6 carousel-body">
-                                <p class="carousel-paragraph">
-                                Colombia is the most famous coffee nation in the world and has many flavors to bring to the cup. 
-                                Often these coffees have a medium body with aromas of chocolate and cocoa. 
-                                The flavors, however, will lead you to citrus fruits, sweet tropical fruit and nutty flavors. 
-                                The Acidity can best be described as bright and citric.                                
-                                </p>
-                            </div>
-                            <div class="col-sm-6">
-                                <img class="graphimg" src="assets/images/colombia_diagram.svg" alt="Colombian Cup Profile">
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                Fun fact: Did you know that Jesuit priests began to cultivate coffee in Colombia in the year 1730?
-                            </div>
-                             <!-- Add source -->
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item background-img" id="image-kenya">
-                    <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading">Kenya</h5>
-                            <div class="col-sm-6 carousel-body">
-                                <p class="carousel-paragraph">
-                                Kenyan coffees often have floral/fruity flavors. The coffee can best be described as vibrant and bright and brings a complex cup to the table. 
-                                The aftertaste is often described as lemony and grapefruit. 
-                                Kenyan coffees are also regarded as high-quality coffee.
-                                </p>
-                            </div>
-                            <div class="col-sm-6">
-                                <img class="graphimg" src="assets/images/kenya_diagram.svg" alt="Kenyan Cup Profile">
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                Fun fact: Did you know Kenyans believe that the coffee they produce should only be exported? So, they drink tea or beer.
-                            </div>
-                             <!-- Add source -->
-                        </div>
-                    </div>
-                </div>
-                 <div class="carousel-item background-img" id="image-vietnam">
-                    <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading">Vietnam</h5>
-                            <div class="col-sm-6 carousel-body">
-                                <p class="carousel-paragraph">
-                                Vietnam Robusta accounts for 95% of the total coffee production of the country.
-                                Grown in the Central Highlands in the South, these coffees offer a very stable cup profile. 
-                                Arabica, which constitutes 5% of the total coffee production, ranges from low to medium acidity, medium body and  good flavor
-                                </p>
-                            </div>
-                            <div class="col-sm-6">
-                                <img class="graphimg" src="assets/images/vietnam_diagram.svg" alt="Vietnam Cup Profile">
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                Fun fact: Did you know that Vietnam is the second largest coffee producing nation?
-                            </div>
-                            <!-- Adapted: https://sucafina.com/emea/origins/vietnam?price=EUR -->
-                        </div>
-                    </div>
-                 </div>
-                <div class="carousel-item background-img" id="image-ethiopia">
-                    <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading">Ethiopia</h5>                    
-                            <div class="col-sm-6 carousel-body">
-                                <p class="carousel-paragraph">
-                                Ethiopian coffee has distinct fruity flavors. Floral notes are also often found in a cup. 
-                                Ethiopian coffees tend to have a high acidity, syrupy mouthfeel and can have a winey quality to it.
-                                On filter, the Ethiopian coffees get a tea-like aspect to it as well. Ethiopian coffee is considered among the best in the world.
-                                </p>
-                            </div>
-                            <div class="col-sm-6">
-                                <img class="graphimg" src="assets/images/ethiopia_diagram.svg" alt="Ethopian Cup Profile">
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                Fun fact: Did you know that Ethiopia is where coffee was first discovered by Kaldi, a goat herder, that noticed their stimulating effects on his goats?
-                            </div>
-                            <!--Adapted: Add source -->
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselCoffeeFade" role="button" data-slide="prev">
-                    <span class="fas fa-arrow-circle-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselCoffeeFade" role="button" data-slide="next">
-                    <span class="fas fa-arrow-circle-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-        </div>
-    </section>
-    
-    <!-- Roasting Profile Carousel -->
+        </section>
 
-    	<section>
-        <div id="carouselRoastingFade" class="carousel-fade carousel slide" data-ride="carousel" data-interval="false">
-            <div class="carousel-inner">
-                <div class="carousel-item active background-img" id="image-cinnamon">
-                     <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading">Cinnamon Roast</h5>
-                            <div class="col-12 carousel-body">
-                                <p class="carousel-paragraph">
-                                Light roast coffees typically stay true to their original flavors. 
-                                Since these beans aren’t roasted for quite so long, the original organic compounds and 
-                                chemical makeup of the bean don’t have as much time to dissipate during the roasting process.
-                                The very lightest roasts will taste a bit like nuts, grains, or seeds. 
-                                The slightly more deeply colored light roast varieties will have hints of different fruits, spices, and even brown sugar.
-                                 </p>
-                            </div>
-                            <!-- https://districtroasters.com/blogs/news/types-of-coffee-roasting-profiles -->
-                            <div class="col-12">
-                                <img class="graphimg" src="assets/images/cinnamon_diagram.svg" alt="Diagram highlighting a light brown color characteristic from this roast profile">
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                TIP: Also known as Blonde Roast, cinnamon relates to its color and not the fragrance/aroma.
+        <!-- Coffee Origin Carousel -->
+        <section>
+            <div id="carouselCoffeeFade" class="carousel-fade carousel slide" data-ride="carousel" data-interval="false"> 
+                <div class="carousel-inner">
+                    <div class="carousel-item active background-img" id="image-brazil">
+                        <div class="container d-flex h-100">
+                            <div class="row justify-content-center align-self-center body-container">
+                                <h5 class="col-12 carousel-heading">Brazil</h5>
+                                <div class="col-sm-6 carousel-body">
+                                    <p class="carousel-paragraph">
+                                        Brazilian coffees are known for their sweet nutty flavors that are accompanied by a bittersweet chocolate note. 
+                                        Also, very common is the hint of toast and low acidity of the Brazilian beans. 
+                                        Because of those agreeable flavors and aromas, Brazilian coffee is often used in blends.
+                                    </p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img class="graphimg" src="assets/images/brazil_diagram.svg" alt="Brazilian Cup Profile">
+                                </div>
+                                <div class="col-12 carousel-footer">
+                                    Fun fact: Did you know that coffee is the second most consumed beverage in Brazil? The first is water.
+                                </div>
+                                <!-- Add source -->
                             </div>
                         </div>
                     </div>
+                    <div class="carousel-item background-img" id="image-colombia">
+                        <div class="container d-flex h-100">
+                            <div class="row justify-content-center align-self-center body-container">
+                                <h5 class="col-12 carousel-heading">Colombia</h5>
+                                <div class="col-sm-6 carousel-body">
+                                    <p class="carousel-paragraph">
+                                        Colombia is the most famous coffee nation in the world and has many flavors to bring to the cup. 
+                                        Often these coffees have a medium body with aromas of chocolate and cocoa. 
+                                        The flavors, however, will lead you to citrus fruits, sweet tropical fruit and nutty flavors. 
+                                        The Acidity can best be described as bright and citric.                                
+                                    </p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img class="graphimg" src="assets/images/colombia_diagram.svg" alt="Colombian Cup Profile">
+                                </div>
+                                <div class="col-12 carousel-footer">
+                                    Fun fact: Did you know that Jesuit priests began to cultivate coffee in Colombia in the year 1730?
+                                </div>
+                                <!-- Add source -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item background-img" id="image-kenya">
+                        <div class="container d-flex h-100">
+                            <div class="row justify-content-center align-self-center body-container">
+                                <h5 class="col-12 carousel-heading">Kenya</h5>
+                                <div class="col-sm-6 carousel-body">
+                                    <p class="carousel-paragraph">
+                                        Kenyan coffees often have floral/fruity flavors. The coffee can best be described as vibrant and bright and brings a complex cup to the table. 
+                                        The aftertaste is often described as lemony and grapefruit. 
+                                        Kenyan coffees are also regarded as high-quality coffee.
+                                    </p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img class="graphimg" src="assets/images/kenya_diagram.svg" alt="Kenyan Cup Profile">
+                                </div>
+                                <div class="col-12 carousel-footer">
+                                    Fun fact: Did you know Kenyans believe that the coffee they produce should only be exported? So, they drink tea or beer.
+                                </div>
+                                <!-- Add source -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item background-img" id="image-vietnam">
+                        <div class="container d-flex h-100">
+                            <div class="row justify-content-center align-self-center body-container">
+                                <h5 class="col-12 carousel-heading">Vietnam</h5>
+                                <div class="col-sm-6 carousel-body">
+                                    <p class="carousel-paragraph">
+                                        Vietnam Robusta accounts for 95% of the total coffee production of the country.
+                                        Grown in the Central Highlands in the South, these coffees offer a very stable cup profile. 
+                                        Arabica, which constitutes 5% of the total coffee production, ranges from low to medium acidity, medium body and  good flavor
+                                    </p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img class="graphimg" src="assets/images/vietnam_diagram.svg" alt="Vietnam Cup Profile">
+                                </div>
+                                <div class="col-12 carousel-footer">
+                                    Fun fact: Did you know that Vietnam is the second largest coffee producing nation?
+                                </div>
+                                <!-- Adapted: https://sucafina.com/emea/origins/vietnam?price=EUR -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item background-img" id="image-ethiopia">
+                        <div class="container d-flex h-100">
+                            <div class="row justify-content-center align-self-center body-container">
+                                <h5 class="col-12 carousel-heading">Ethiopia</h5>                    
+                                <div class="col-sm-6 carousel-body">
+                                    <p class="carousel-paragraph">
+                                        Ethiopian coffee has distinct fruity flavors. Floral notes are also often found in a cup. 
+                                        Ethiopian coffees tend to have a high acidity, syrupy mouthfeel and can have a winey quality to it.
+                                        On filter, the Ethiopian coffees get a tea-like aspect to it as well. Ethiopian coffee is considered among the best in the world.
+                                    </p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img class="graphimg" src="assets/images/ethiopia_diagram.svg" alt="Ethiopian Cup Profile">
+                                </div>
+                                <div class="col-12 carousel-footer">
+                                    Fun fact: Did you know that Ethiopia is where coffee was first discovered by Kaldi, a goat herder, that noticed their stimulating effects on his goats?
+                                </div>
+                                <!--Adapted: Add source -->
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselCoffeeFade" role="button" data-slide="prev">
+                        <span class="fas fa-arrow-circle-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselCoffeeFade" role="button" data-slide="next">
+                        <span class="fas fa-arrow-circle-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <div class="carousel-item background-img" id="image-city">
-                    <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading">City Roast</h5>
-                            <div class="col-12 carousel-body">
-                                <p class="carousel-paragraph">
-                                Medium roast coffees still boast some of the original organic qualities of the beans but the flavors aren’t quite as obvious.
-                                With these roasts, the acidity levels tend to smooth over a bit, cutting through some of the original fruity or sweet tastes of light roasts. 
-                                Medium roasts tend to recall other flavors like caramel, honey, or roasted fruits. These tend to be the most popular roasts in the USA.
-                                </p>
-                            </div>
-                            <!-- https://districtroasters.com/blogs/news/types-of-coffee-roasting-profiles -->
-                            <div class="col-12">
-                                <img class="graphimg" src="assets/images/city_diagram.svg" alt="Diagram highlighting a medium-light brown color characteristic from this roast profile">
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                TIP: Enhance the Colombian coffee attributes. It is okey to go 100% (even though is no longer a blend!)
+            </div>
+        </section>
+        
+        <!-- Roasting Profile Carousel -->
+        <section>
+            <div id="carouselRoastingFade" class="carousel-fade carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active background-img" id="image-cinnamon">
+                        <div class="container d-flex h-100">
+                            <div class="row justify-content-center align-self-center body-container">
+                                <h5 class="col-12 carousel-heading">Cinnamon Roast</h5>
+                                <div class="col-12 carousel-body">
+                                    <p class="carousel-paragraph">
+                                        Light roast coffees typically stay true to their original flavors. 
+                                        Since these beans aren’t roasted for quite so long, the original organic compounds and 
+                                        chemical makeup of the bean don’t have as much time to dissipate during the roasting process.
+                                        The very lightest roasts will taste a bit like nuts, grains, or seeds. 
+                                        The slightly more deeply colored light roast varieties will have hints of different fruits, spices, and even brown sugar.
+                                    </p>
+                                </div>
+                                <!-- Adapted from: https://districtroasters.com/blogs/news/types-of-coffee-roasting-profiles -->
+                                <div class="col-12">
+                                    <img class="graphimg" src="assets/images/cinnamon_diagram.svg" alt="Diagram highlighting a light brown color characteristic from this roast profile">
+                                </div>
+                                <div class="col-12 carousel-footer">
+                                    TIP: Also known as Blonde Roast, cinnamon relates to its color and not the fragrance/aroma.
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="carousel-item background-img" id="image-city">
+                        <div class="container d-flex h-100">
+                            <div class="row justify-content-center align-self-center body-container">
+                                <h5 class="col-12 carousel-heading">City Roast</h5>
+                                <div class="col-12 carousel-body">
+                                    <p class="carousel-paragraph">
+                                        Medium roast coffees still boast some of the original organic qualities of the beans but the flavors aren’t quite as obvious.
+                                        With these roasts, the acidity levels tend to smooth over a bit, cutting through some of the original fruity or sweet tastes of light roasts. 
+                                        Medium roasts tend to recall other flavors like caramel, honey, or roasted fruits. These tend to be the most popular roasts in the USA.
+                                    </p>
+                                </div>
+                                <!-- Adapted from: https://districtroasters.com/blogs/news/types-of-coffee-roasting-profiles -->
+                                <div class="col-12">
+                                    <img class="graphimg" src="assets/images/city_diagram.svg" alt="Diagram highlighting a medium-light brown color characteristic from this roast profile">
+                                </div>
+                                <div class="col-12 carousel-footer">
+                                    TIP: Enhance the Colombian coffee attributes. It is okay to go 100% (even though is no longer a blend!)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item background-img" id="image-full-city">
+                        <div class="container d-flex h-100">
+                            <div class="row justify-content-center align-self-center body-container">
+                                <h5 class="col-12 carousel-heading">Full City Roast</h5>
+                                <div class="col-12 carousel-body">
+                                    <p class="carousel-paragraph">
+                                        Distinguished by the deep brown color and heavy oil on the bean's surface, Full City Roast further intensifies the unique character of each different coffee. 
+                                        Coffee does not become bitter when roasted darker. Bitterness in coffee is from poor quality beans or improper roasting. 
+                                        Dark roasted coffee should have a heavy, rich flavor, never burnt or bitter. 
+                                        The extended time in the roasted not only makes coffee darker, but also lighter in weight.
+                                    </p>
+                                </div>
+                                <!-- Adapted from: https://www.coffeemasters.com/coffee-roasting-levels/full-city-roast/ -->
+                                <div class="col-12">
+                                    <img class="graphimg" src="assets/images/fullcity_diagram.svg" alt="Diagram highlighting a medium brown color characteristic from this roast profile">
+                                </div>
+                                <div class="col-12 carousel-footer">
+                                    TIP: Try a mix of Kenya, Brazil and Colombia with a pinch of Vietnam. Your palate will thank you later.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item background-img" id="image-american">
+                        <div class="container d-flex h-100">
+                            <div class="row justify-content-center align-self-center body-container">
+                                <h5 class="col-12 carousel-heading">American Roast</h5>
+                                <div class="col-12 carousel-body">
+                                    <p class="carousel-paragraph">
+                                        American Roast is the point where coffee beans have achieved their rich, medium brown color without any of coffee's natural oils appearing on the surface. 
+                                        American Roast is the traditional roasting style of American coffee. It produces a flavorful, complex cup of coffee. 
+                                        At the American Roast level, each individual origin coffee will be at its most distinct flavor. 
+                                        American Roast is coffee in its clearest state, without any heavy, smoky flavors that dark roasts bring out.
+                                    </p>
+                                </div>
+                                <!-- Adapted from: https://www.coffeemasters.com/coffee-roasting-levels/american-roast/ -->
+                                <div class="col-12">
+                                    <img class="graphimg" src="assets/images/american_diagram.svg" alt="Diagram highlighting a medium-dark brown color characteristic from this roast profile">
+                                </div>
+                                <div class="col-12 carousel-footer">
+                                    TIP: Recommended for filter coffee.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item background-img" id="image-french">
+                        <div class="container d-flex h-100">
+                            <div class="row justify-content-center align-self-center body-container">
+                                <h5 class="col-12 carousel-heading">French Roast</h5>
+                                <div class="col-12 carousel-body">
+                                    <p class="carousel-paragraph">
+                                        With more oil on the bean and a little darker color than Full City Roast, French Roast brings coffee to the height of its flavor.
+                                        French Roast creates a deep heavy flavor, some of the more subtle flavors of coffee will be hidden by the dark roasted smokiness. 
+                                        As coffee is roasted longer, the unique character of each Varietal, such as Kenya or Sumatra, is diminished, all coffee would taste the same roasted dark enough.
+                                    </p>
+                                </div>
+                                <!-- Adapted from: https://www.coffeemasters.com/coffee-roasting-levels/french-roast/ -->
+                                <div class="col-12">
+                                    <img class="graphimg" src="assets/images/french_diagram.svg" alt="Diagram highlighting a dark brown color characteristic from this roast profile">
+                                </div>
+                                <div class="col-12 carousel-footer">
+                                    TIP: For Espresso fanatics
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselRoastingFade" role="button" data-slide="prev">
+                        <span class="fas fa-arrow-circle-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselRoastingFade" role="button" data-slide="next">
+                        <span class="fas fa-arrow-circle-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <div class="carousel-item background-img" id="image-full-city">
-                     <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading">Full City Roast</h5>
-                            <div class="col-12 carousel-body">
-                                <p class="carousel-paragraph">
-                                Distinguished by the deep brown color and heavy oil on the bean's surface, Full City Roast further intensifies the unique character of each different coffee. 
-                                Coffee does not become bitter when roasted darker. Bitterness in coffee is from poor quality beans or improper roasting. 
-                                Dark roasted coffee should have a heavy, rich flavor, never burnt or bitter. 
-                                The extended time in the roasted not only makes coffee darker, but also lighter in weight.
-                                </p>
-                            </div>
-                            <!-- Adapted from: https://www.coffeemasters.com/coffee-roasting-levels/full-city-roast/ -->
-                            <div class="col-12">
-                                <img class="graphimg" src="assets/images/fullcity_diagram.svg" alt="Diagram highlighting a medium brown color characteristic from this roast profile">
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                TIP: Try a mix of Kenya, Brazil and Colombia with a pinch of Vietnam. Your palate will thank you later.
-                            </div>
+            </div>
+        </section>
+    
+        <!-- Subscription Section -->
+        <section>
+            <div class="hero-container">
+                <div class="container-fluid d-flex h-100 subscription-bg-img" id="coffee-newsletter">
+                    <div class="row justify-content-center align-self-center subscription-container">
+                        <h2 class="col-12" id="subscription-heading"> Check out first-hand what we've been working on for you!</h2>
+                        <div class=" col-12" id="newsform">
+                            <form class="justify-content-center align-self-center" id="subscribe-form-lab">
+                                <i class="far fa-newspaper"></i>
+                                <label class="sr-only" for="inlineFormInput">Email</label>
+                                <input type="email" class="form-control mb-1" id="inlineFormInput" placeholder="Your email here to stay tuned!" required>
+                                <button type="submit" class="buttons mt-2">Subscribe</button>
+                            </form>
                         </div>
-                    </div>
-                </div>
-                 <div class="carousel-item background-img" id="image-american">
-                    <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading">American Roast</h5>
-                            <div class="col-12 carousel-body">
-                                <p class="carousel-paragraph">
-                                American Roast is the point where coffee beans have achieved their rich, medium brown color without any of coffee's natural oils appearing on the surface. 
-                                American Roast is the traditional roasting style of American coffee. It produces a flavorful, complex cup of coffee. 
-                                At the American Roast level, each individual origin coffee will be at its most distinct flavor. 
-                                American Roast is coffee in its clearest state, without any heavy, smoky flavors that dark roasts bring out.
-                                </p>
-                            </div>
-                            <!-- Adapted from: https://www.coffeemasters.com/coffee-roasting-levels/american-roast/ -->
-                            <div class="col-12">
-                                <img class="graphimg" src="assets/images/american_diagram.svg" alt="Diagram highlighting a medium-dark brown color characteristic from this roast profile">
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                TIP: Recommended for filter coffee.
-                            </div>
-                        </div>
-                    </div>
-                 </div>
-                <div class="carousel-item background-img" id="image-french">
-                    <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading">French Roast</h5>
-                            <div class="col-12 carousel-body">
-                                <p class="carousel-paragraph">
-                                With more oil on the bean and a little darker color than Full City Roast, French Roast brings coffee to the height of its flavor.
-                                French Roast creates a deep heavy flavor, some of the more subtle flavors of coffee will be hidden by the dark roasted smokiness. 
-                                As coffee is roasted longer, the unique character of each Varietal, such as Kenya or Sumatra, is diminished, all coffee would taste the same roasted dark enough.
-                                </p>
-                            </div>
-                            <!-- https://www.coffeemasters.com/coffee-roasting-levels/french-roast/ -->
-                            <div class="col-12">
-                                <img class="graphimg" src="assets/images/french_diagram.svg" alt="Diagram highlighting a dark brown color characteristic from this roast profile">
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                TIP: For Espresso fanatics
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <a class="carousel-control-prev" href="#carouselRoastingFade" role="button" data-slide="prev">
-                <span class="fas fa-arrow-circle-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselRoastingFade" role="button" data-slide="next">
-                <span class="fas fa-arrow-circle-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-    </section>
-   
-    <section>
-        <div class="hero-container">
-            <div class="container-fluid d-flex h-100 subscription-bg-img" id="coffee-newsletter">
-                <div class="row justify-content-center align-self-center subscription-container">
-                    <h2 class="col-12" id="subscription-heading"> Check out first-hand what we've been working on for you!</h2>
-                    <div class=" col-12" id="newsform">
-                        <form class="justify-content-center align-self-center" id="subscribe-form-lab">
-                            <i class="far fa-newspaper"></i>
-                            <label class="sr-only" for="inlineFormInput">Email</label>
-                            <input type="email" class="form-control mb-1" id="inlineFormInput" placeholder="Your email here to stay tuned!" required>
-                            <button type="submit" class="buttons mt-2">Subscribe</button>
-                        </form>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-        <div class="modal fade" id="subscribe-lab-modal" tabindex="-1" role="dialog" aria-labelledby="Subscription module confirmation" aria-hidden="true">
+        </section>
+
+        <!-- Subsription Modal -->
+        <div class="modal fade" id="subscribe-lab-modal" tabindex="-1" role="dialog" aria-label="Subscription module confirmation" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title" id="#subscribe"><i class="far fa-newspaper"></i> Welcome to The Coffee Palate family</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                <div class="modal-body">
-                    Thank you for subscribing to our newsletter. We will be in touch!
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn buttons" data-dismiss="modal">Close</button>
-                </div>
+                    <div class="modal-body">
+                        Thank you for subscribing to our newsletter. We will be in touch!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn buttons" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-	<footer>
-		<div class="row">
-            <div class="col-12 d-flex justify-content-center align-items-center">
-                <ul class="list-inline mb-0" id="social-links">
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
-                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="mailto:info@thecoffeepalate.com" target="_blank">
-                            <i class="far fa-envelope" aria-hidden="true"></i>
-                            <span class="sr-only">Email</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://wa.me/31629608535" target="_blank" rel="noopener">
-                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                            <span class="sr-only">Whatsapp</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center" id="copyright">© Copyright 2020</div>
-        </div>
-	</footer>
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-	</script>
-<!-- Javascript for form adapted from https://anouksmet.github.io/Naturazy/  -->
-    <script>
-    $('#subscribe-form-lab').submit(function (e) {
-        e.preventDefault();
-        $('#subscribe-lab-modal').modal('show');
-    }); 
-    </script>
-</body>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <ul class="list-inline mb-0" id="social-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="mailto:info@thecoffeepalate.com" target="_blank">
+                                <i class="far fa-envelope" aria-hidden="true"></i>
+                                <span class="sr-only">Email</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://wa.me/31629608535" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                <span class="sr-only">Whatsapp</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center" id="copyright">© Copyright 2020</div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+        
+    <!-- Javascript for form adapted from https://anouksmet.github.io/Naturazy/  -->
+        <script>
+        $('#subscribe-form-lab').submit(function (e) {
+            e.preventDefault();
+            $('#subscribe-lab-modal').modal('show');
+        }); 
+        </script>
+    </body>
 </html>

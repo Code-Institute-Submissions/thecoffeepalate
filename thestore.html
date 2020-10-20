@@ -1,573 +1,590 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>The Coffee Palate</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Make your own coffee blend. From choosing the coffee origins to the roasting profile, your unique blend is only limited by your curiosity and imagination.">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>The Coffee Palate</title>
+    </head>
 
-<body>
-	<header>
-		<nav class="navbar navbar-expand-lg" id="navbar-tcp">
-            <a href="index.html"> <img src="assets/logo/logo_transparent.png" id="navbar-logo" alt="logo" loading="lazy"></a>
-            <span id="navbar-brand"> The Coffee Palate</span>
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-coffee"></i></button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav" id="grid-container">
-						<li class="nav-item">
-							<a class="nav-link d-flex align-items-center justify-content-center" href="thelab.html"><i class="fas fa-flask nav-icons"></i>The Lab</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link d-flex align-items-center justify-content-center active" href="thestore.html"><i class="fas fa-fingerprint nav-icons"></i>The Store</a>
-						</li>
+    <body>
+
+        <!-- Navigation -->
+        <header>
+            <nav class="navbar navbar-expand-lg" id="navbar-tcp">
+                <a href="index.html"> <img src="assets/logo/logo_transparent.png" id="navbar-logo" alt="logo" loading="lazy"></a>
+                <span id="navbar-brand"> The Coffee Palate</span>
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-coffee"></i></button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav" id="grid-container">
                         <li class="nav-item">
-							<a class="nav-link d-flex align-items-center justify-content-center" href="#coffee-newsletter"><i class="far fa-newspaper nav-icons" id="news-icon-nav"></i>Subscribe</a>
-						</li>
-					</ul>
-				</div>
-		</nav>
-	</header>
-
-<!-- Carousel Store -->
-
-	<section>
-        <div class="background-img" id="kalita-img">
-            <div class="top-container-img d-flex h-100">
-                <div class="justify-content-center align-self-center hero-container">
-                    <h2 class="text-block-top">Let's blend!</h2>
-                    <div class="text-block-middle welcome-message">
-                        <p class="p-intro">The moment has come! 
-                            <br>Follow the below 4 steps and start blending.
-                            <br>Just because <strong>YOU</strong> deserve your own unique blend!
-                        </p>
-                    </div>
-                    <h2 class="text-block-bottom">You're just a few steps away from developing your unique blend!</h2>
-                </div> 
-            </div>
-        </div>
-    </section>
-    <section>
-        <div id="carouselStoreFade" class="carousel-fade carousel slide" data-ride="carousel" data-interval="false">
-            <form id="order-form">
-                <div class="carousel-inner">
-                    <div class="carousel-item active background-img couple-img">
-                        <div class="container d-flex h-100">
-                            <div class="row justify-content-center align-self-center body-container">
-                                <h5 class="col-12 carousel-heading"><i class="fas fa-battery-quarter"></i> Step 1: Origins</h5>
-                                <div class="carousel-body col-12">
-                                    <div class="row origin-input">
-                                        <p class="p-intro col-12">Select the percentage of coffee for your blend. Visit <a href="thelab.html#carouselCoffeeFade" aria-label="Navigate to the origins section at The Lab">The Lab</a> if you have any doubts about these origins.</p>
-                                        <label class="input-group-text col-6" for="brazil">Brazil</label>
-                                        <select class=" dropdownlist col-6 col-md-3" id="brazil">
-                                            <option value="0">0%</option>
-                                            <option value="1">5%</option>
-                                            <option value="2">10%</option>
-                                            <option value="3">15%</option>
-                                            <option value="4">20%</option>
-                                            <option value="5">25%</option>
-                                            <option value="6">30%</option>
-                                            <option value="7">35%</option>
-                                            <option value="8">40%</option>
-                                            <option value="9">45%</option>
-                                            <option value="10">50%</option>
-                                            <option value="11">55%</option>
-                                            <option value="12">60%</option>
-                                            <option value="13">65%</option>
-                                            <option value="14">70%</option>
-                                            <option value="15">75%</option>
-                                            <option value="16">80%</option>
-                                            <option value="17">85%</option>
-                                            <option value="18">90%</option>
-                                            <option value="19">95%</option>
-                                            <option value="20">100%</option>
-                                        </select>
-                                        <label class="input-group-text col-6" for="colombia">Colombia</label>
-                                        <select class="dropdownlist col-6 col-md-3" id="colombia">
-                                                <option value="0">0%</option>
-                                                <option value="1">5%</option>
-                                                <option value="2">10%</option>
-                                                <option value="3">15%</option>
-                                                <option value="4">20%</option>
-                                                <option value="5">25%</option>
-                                                <option value="6">30%</option>
-                                                <option value="7">35%</option>
-                                                <option value="8">40%</option>
-                                                <option value="9">45%</option>
-                                                <option value="10">50%</option>
-                                                <option value="11">55%</option>
-                                                <option value="12">60%</option>
-                                                <option value="13">65%</option>
-                                                <option value="14">70%</option>
-                                                <option value="15">75%</option>
-                                                <option value="16">80%</option>
-                                                <option value="17">85%</option>
-                                                <option value="18">90%</option>
-                                                <option value="19">95%</option>
-                                                <option value="20">100%</option>
-                                        </select>
-                                        <label class="input-group-text col-6" for="kenya">Kenya</label>
-                                        <select class="dropdownlist col-6 col-md-3" id="kenya">
-                                            <option value="0">0%</option>
-                                            <option value="1">5%</option>
-                                            <option value="2">10%</option>
-                                            <option value="3">15%</option>
-                                            <option value="4">20%</option>
-                                            <option value="5">25%</option>
-                                            <option value="6">30%</option>
-                                            <option value="7">35%</option>
-                                            <option value="8">40%</option>
-                                            <option value="9">45%</option>
-                                            <option value="10">50%</option>
-                                            <option value="11">55%</option>
-                                            <option value="12">60%</option>
-                                            <option value="13">65%</option>
-                                            <option value="14">70%</option>
-                                            <option value="15">75%</option>
-                                            <option value="16">80%</option>
-                                            <option value="17">85%</option>
-                                            <option value="18">90%</option>
-                                            <option value="19">95%</option>
-                                            <option value="20">100%</option>
-                                        </select>
-                                        <label class="input-group-text col-6" for="vietnam">Vietnam</label>
-                                        <select class="dropdownlist col-6 col-md-3" id="vietnam">
-                                                <option value="0">0%</option>
-                                                <option value="1">5%</option>
-                                                <option value="2">10%</option>
-                                                <option value="3">15%</option>
-                                                <option value="4">20%</option>
-                                                <option value="5">25%</option>
-                                                <option value="6">30%</option>
-                                                <option value="7">35%</option>
-                                                <option value="8">40%</option>
-                                                <option value="9">45%</option>
-                                                <option value="10">50%</option>
-                                                <option value="11">55%</option>
-                                                <option value="12">60%</option>
-                                                <option value="13">65%</option>
-                                                <option value="14">70%</option>
-                                                <option value="15">75%</option>
-                                                <option value="16">80%</option>
-                                                <option value="17">85%</option>
-                                                <option value="18">90%</option>
-                                                <option value="19">95%</option>
-                                                <option value="20">100%</option>
-                                        </select>
-                                        <label class="input-group-text col-6" for="ethiopia">Ethiopia</label>
-                                        <select class="dropdownlist col-6 col-md-3 " id="ethiopia">
-                                                <option value="0">0%</option>
-                                                <option value="1">5%</option>
-                                                <option value="2">10%</option>
-                                                <option value="3">15%</option>
-                                                <option value="4">20%</option>
-                                                <option value="5">25%</option>
-                                                <option value="6">30%</option>
-                                                <option value="7">35%</option>
-                                                <option value="8">40%</option>
-                                                <option value="9">45%</option>
-                                                <option value="10">50%</option>
-                                                <option value="11">55%</option>
-                                                <option value="12">60%</option>
-                                                <option value="13">65%</option>
-                                                <option value="14">70%</option>
-                                                <option value="15">75%</option>
-                                                <option value="16">80%</option>
-                                                <option value="17">85%</option>
-                                                <option value="18">90%</option>
-                                                <option value="19">95%</option>
-                                                <option value="20">100%</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-12 carousel-footer">
-                                    <i class="fas fa-exclamation"></i> 
-                                    Please make sure that the sum of your percentages <b>equals 100%</b>
-                                </div>
-                                <div class="col-12 npbuttons">
-                                    <a href="#carouselStoreFade" role="button" data-slide="next">
-                                        <span class="buttons" aria-hidden="true">Next</span>
-                                    </a>
-                                </div>                                                                                                                                                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item background-img couple-img">
-                        <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading"><i class="fas fa-battery-half"></i> Step 2: Roasting Profile</h5>
-                            <div class="carousel-body col-12">
-                                <div class="row origin-input">
-                                    <p class="p-intro col-12">
-                                        Pick the best roasting profile that will highlight the cup attributes that you love the most. 
-                                        Visit <a href="thelab.html#carouselRoastingFade" aria-label="Navigate to the roasting profiles section at The Lab">The Lab</a> if you have any doubts about these profiles.
-                                    </p>
-                                    <div class="col-12">
-                                        <input  type="radio" name="roastingradios" id="cinnamon" value="0" checked>
-                                        <label  for="cinnamon"> Cinnamon Roast</label>
-                                    </div>
-                                    <div class="col-12">
-                                        <input  type="radio" name="roastingradios" id="cityroast" value="1">
-                                        <label  for="cityroast"> City Roast</label>
-                                    </div>
-                                    <div class="col-12">
-                                        <input  type="radio" name="roastingradios" id="fullcity" value="2">
-                                        <label  for="fullcity"> Full City Roast</label>
-                                    </div>
-                                    <div class="col-12">
-                                        <input  type="radio" name="roastingradios" id="american" value="3">
-                                        <label  for="american"> American Roast</label>
-                                    </div>
-                                    <div class="col-12">
-                                    <input type="radio" name="roastingradios" id="french" value="4">
-                                    <label for="french"> French Roast</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-footer col-12">
-                                <i class="fas fa-exclamation"></i> Remember <i class="fas fa-exclamation"></i><br>The lower the rosting degree, the higher the acidity. The higher the roasting degree, the higher the bitterness
-                            </div>
-                            <div class="col-12 npbuttons">
-                                <a href="#carouselStoreFade" role="button" data-slide="prev">
-                                    <span class="buttons" aria-hidden="true">Previous</span>
-                                </a>
-                                <a href="#carouselStoreFade" role="button" data-slide="next">
-                                    <span class="buttons" aria-hidden="true">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item background-img couple-img">
-                        <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading"><i class="fas fa-battery-three-quarters"></i> Step 3: How do you want your coffee?</h5>
-                            <div class="carousel-body col-12">
-                                <div class="row origin-input">
-                                    <p class="p-intro col-12">We're almost done!</p>
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-12 col-md-4 checkbox">
-                                                <input type="checkbox" name="grindbuttons" id="whole" value="0" checked>
-                                                <label for="whole">Whole Beans</label>
-                                            </div>                                           
-                                            <select class="col-5 col-md-3 grind-select">
-                                                <option disabled selected>Amount per bag</option>
-                                                <!-- Tip: Pick this option if you have a grinder at hom  -->
-                                                <option>250g - € 4.95 / bag</option>
-                                                <option>500g - € 6.95 / bag</option>
-                                                <option>1 Kg - € 11.95 / bag</option>
-                                            </select>   
-                                            <select class="col-5 col-md-3 grind-select">
-                                                <option disabled selected>How many bags?</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>                                          
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-12 col-md-4 checkbox">
-                                                <input type="checkbox" name="grindbuttons" id="thin" value="1">
-                                                <label for="thin">Thin</label>
-                                            </div>                                          
-                                            <select class="col-5 col-md-3 grind-select">
-                                                <option disabled selected>Amount per bag</option>
-                                                <!-- Tip: Recommendend for Turkish Coffee -->
-                                                <option>250g - € 4.95 / bag</option>
-                                                <option>500g - € 6.95 / bag</option>
-                                                <option>1 Kg - € 11.95 / bag</option>
-                                            </select>
-                                            <select class="col-5 col-md-3 grind-select">
-                                                <option disabled selected>How many bags?</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>  
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-12 col-md-4 checkbox">
-                                                <input type="checkbox" name="grindbuttons" id="mthin" value="2">
-                                                <label for="mthin">Medium-Thin</label>
-                                            </div>                                          
-                                            <select class="col-5 col-md-3 grind-select">
-                                                <option disabled selected>Amount per bag</option>
-                                                <!-- Tip: For espresso lovers and italian coffee makers -->
-                                                <option>250g - € 4.95 / bag</option>
-                                                <option>500g - € 6.95 / bag</option>
-                                                <option>1 Kg - € 11.95 / bag</option>
-                                            </select>
-                                            <select class="col-5 col-md-3 grind-select">
-                                                <option disabled selected>How many bags?</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>  
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-12 col-md-4 checkbox">
-                                                <input type="checkbox" name="grindbuttons" id="mcoarse" value="3">
-                                                <label for="mcoarse">Medium-Coarse</label>
-                                            </div>
-                                            <select class="col-5 col-md-3 grind-select">
-                                                <option disabled selected>Amount per bag</option>
-                                                <!-- Tip: For Chemex and V60 -->
-                                                <option>250g - € 4.95 / bag</option>
-                                                <option>500g - € 6.95 / bag</option>
-                                                <option>1 Kg - € 11.95 / bag</option>
-                                            </select>
-                                            <select class="col-5 col-md-3 grind-select">
-                                                <option disabled selected>How many bags?</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>                                            
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-12 col-md-4 checkbox">
-                                                <input type="checkbox" name="grindbuttons" id="coarse" value="4">
-                                                <label for="coarse">Coarse</label>
-                                            </div>
-                                            <select class="col-5 col-md-3 grind-select">
-                                                <option disabled selected>Amount per bag</option>
-                                                <!-- Tip: For French press and Cold Brews -->
-                                                <option>250g - € 4.95 / bag</option>
-                                                <option>500g - € 6.95 / bag</option>
-                                                <option>1 Kg - € 11.95 / bag</option>
-                                            </select>
-                                            <select class="col-5 col-md-3 grind-select">
-                                                <option disabled selected>How many bags?</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 carousel-footer">
-                                If you require any other type of packaging do not hesitate to contact us directly via any of the social links below on the page
-                            </div>
-                            <div class="col-12 npbuttons">
-                                <a href="#carouselStoreFade" role="button" data-slide="prev">
-                                    <span class="buttons" aria-hidden="true">Previous</span>
-                                </a>
-                                <a href="#carouselStoreFade" role="button" data-slide="next">
-                                    <span class="buttons" aria-hidden="true">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="carousel-item background-img couple-img">
-                    <div class="container d-flex h-100">
-                        <div class="row justify-content-center align-self-center body-container">
-                            <h5 class="col-12 carousel-heading"><i class="fas fa-battery-full"></i> Step 4: Start the blend</h5>
-                            <div class="col-12 carousel=body">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 final-input">
-                                        <label class="contact-labels" for="fname">First Name</label>
-                                        <input type="text" class="form-control" id="fname" placeholder="First Name" required>
-                                    </div>
-                                    <div class="col-12 col-md-6 final-input">
-                                        <label class="contact-labels" for="lname">Last Name</label>
-                                        <input type="text" class="form-control" id="lname" placeholder="Last Name" required>
-                                    </div>
-                                    <div class="col-12 final-input">
-                                        <label class="contact-labels" for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="name@domain.com" required>
-                                    </div> 
-                                    <div class="col-12 final-input">  
-                                        <label class="contact-labels" for="address">Address</label>
-                                        <input type="text" class="form-control" id="address" placeholder="Street, number, floor, apartment" required>
-                                    </div>
-                                    <div class="col-12 col-md-6 final-input">
-                                        <label class="contact-labels" for="city">City</label>
-                                        <input type="text" class="form-control" id="city" placeholder="City" required>
-                                    </div>
-                                    <div class="col-12 col-md-6 final-input">
-                                        <label class="contact-labels" for="zipcode">Zip Code</label>
-                                        <input type="text" class="form-control" id="zipcode" placeholder="Zip Code" required>
-                                    </div>
-                                    <div class="col-12 final-input">
-                                        <label class="contact-labels" for="additionalComments">Additional Comments</label>
-                                        <textarea class="form-control" id="additionalComments" rows="2" placeholder="Tell us anyhting that you might think is relevant for your blend, special requests or even any suggestion "></textarea>
-                                    </div>
-                                    <div class="col-12 final-input">
-                                        <input type="checkbox" aria-label="Checkbox for Terms & Conditions" required>
-                                        <p class="smalltext"> I agree with the <a data-target="#termsandconditions" data-toggle="modal" href="#termsandconditions" aria-label="Access to the terms and conditions">Terms&Conditions</a></p>
-                                    </div>
-                                </div>
-                            </div>  
-                            <div class= "col-12 npbuttons">
-                                <a href="#carouselStoreFade" role="button" data-slide="prev">
-                                    <span class="buttons" aria-hidden="true">Previous</span>
-                                </a>
-                                <button class="buttons" type="submit" data-toggle="modal" data-target="#order"><i class="fas fa-shopping-cart"></i> Let's blend</button>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
+                            <a class="nav-link d-flex align-items-center justify-content-center" href="thelab.html"><i class="fas fa-flask nav-icons"></i>The Lab</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center justify-content-center active" href="thestore.html"><i class="fas fa-fingerprint nav-icons"></i>The Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center justify-content-center" href="#coffee-newsletter"><i class="far fa-newspaper nav-icons" id="news-icon-nav"></i>Subscribe</a>
+                        </li>
+                    </ul>
                 </div>
-            </form>
-        </div>
-    </section>
-    <section>
-        <div class="hero-container">
-            <div class="container-fluid d-flex h-100 subscription-bg-img" id="coffee-newsletter">
-                <div class="row justify-content-center align-self-center subscription-container">
-                    <h2 class="col-12" id="subscription-heading"> Check out first-hand what we've been working on for you!</h2>
-                    <div class=" col-12" id="newsform">
-                        <form class="justify-content-center align-self-center" id="subscribe-form-lab">
-                            <i class="far fa-newspaper"></i>
-                            <label class="sr-only" for="inlineFormInput">Email</label>
-                            <input type="email" class="form-control mb-1" id="inlineFormInput" placeholder="Your email here to stay tuned!" required>
-                            <button type="submit" class="buttons mt-2">Subscribe</button>
-                        </form>
-                    </div>
+            </nav>
+        </header>
+
+        <!-- Hero Container -->
+        <section>
+            <div class="background-img" id="kalita-img">
+                <div class="top-container-img d-flex h-100">
+                    <div class="justify-content-center align-self-center hero-container">
+                        <h2 class="text-block-top">Let's blend!</h2>
+                        <div class="text-block-middle welcome-message">
+                            <p class="p-intro">The moment has come! 
+                                <br>Follow the below 4 steps and start blending.
+                                <br>Just because <strong>YOU</strong> deserve your own unique blend!
+                            </p>
+                        </div>
+                        <h2 class="text-block-bottom">You're just a few steps away from developing your unique blend!</h2>
+                    </div> 
                 </div>
             </div>
-        </div>
-    </section>
-        <div class="modal fade" id="subscribe-store-modal" tabindex="-1" role="dialog" aria-labelledby="Subscription module confirmation" aria-hidden="true">
+        </section>
+
+        <!-- Carousel Store -->
+        <section>
+            <div id="carouselStoreFade" class="carousel-fade carousel slide" data-ride="carousel" data-interval="false">
+                <form id="order-form">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active background-img couple-img">
+                            <div class="container d-flex h-100">
+                                <div class="row justify-content-center align-self-center body-container">
+                                    <h5 class="col-12 carousel-heading"><i class="fas fa-battery-quarter"></i> Step 1: Origins</h5>
+                                    <div class="col-12 carousel-body">
+                                        <div class="row origin-input">
+                                            <p class="p-intro col-12">Select the percentage of coffee for your blend. Visit <a href="thelab.html#carouselCoffeeFade" aria-label="Navigate to the origins section at The Lab">The Lab</a> if you have any doubts about these origins.</p>
+                                            <label class="input-group-text col-6" for="brazil">Brazil</label>
+                                            <select class=" dropdownlist col-6 col-md-3" id="brazil">
+                                                <option value="0">0%</option>
+                                                <option value="1">5%</option>
+                                                <option value="2">10%</option>
+                                                <option value="3">15%</option>
+                                                <option value="4">20%</option>
+                                                <option value="5">25%</option>
+                                                <option value="6">30%</option>
+                                                <option value="7">35%</option>
+                                                <option value="8">40%</option>
+                                                <option value="9">45%</option>
+                                                <option value="10">50%</option>
+                                                <option value="11">55%</option>
+                                                <option value="12">60%</option>
+                                                <option value="13">65%</option>
+                                                <option value="14">70%</option>
+                                                <option value="15">75%</option>
+                                                <option value="16">80%</option>
+                                                <option value="17">85%</option>
+                                                <option value="18">90%</option>
+                                                <option value="19">95%</option>
+                                                <option value="20">100%</option>
+                                            </select>
+                                            <label class="input-group-text col-6" for="colombia">Colombia</label>
+                                            <select class="dropdownlist col-6 col-md-3" id="colombia">
+                                                    <option value="0">0%</option>
+                                                    <option value="1">5%</option>
+                                                    <option value="2">10%</option>
+                                                    <option value="3">15%</option>
+                                                    <option value="4">20%</option>
+                                                    <option value="5">25%</option>
+                                                    <option value="6">30%</option>
+                                                    <option value="7">35%</option>
+                                                    <option value="8">40%</option>
+                                                    <option value="9">45%</option>
+                                                    <option value="10">50%</option>
+                                                    <option value="11">55%</option>
+                                                    <option value="12">60%</option>
+                                                    <option value="13">65%</option>
+                                                    <option value="14">70%</option>
+                                                    <option value="15">75%</option>
+                                                    <option value="16">80%</option>
+                                                    <option value="17">85%</option>
+                                                    <option value="18">90%</option>
+                                                    <option value="19">95%</option>
+                                                    <option value="20">100%</option>
+                                            </select>
+                                            <label class="input-group-text col-6" for="kenya">Kenya</label>
+                                            <select class="dropdownlist col-6 col-md-3" id="kenya">
+                                                <option value="0">0%</option>
+                                                <option value="1">5%</option>
+                                                <option value="2">10%</option>
+                                                <option value="3">15%</option>
+                                                <option value="4">20%</option>
+                                                <option value="5">25%</option>
+                                                <option value="6">30%</option>
+                                                <option value="7">35%</option>
+                                                <option value="8">40%</option>
+                                                <option value="9">45%</option>
+                                                <option value="10">50%</option>
+                                                <option value="11">55%</option>
+                                                <option value="12">60%</option>
+                                                <option value="13">65%</option>
+                                                <option value="14">70%</option>
+                                                <option value="15">75%</option>
+                                                <option value="16">80%</option>
+                                                <option value="17">85%</option>
+                                                <option value="18">90%</option>
+                                                <option value="19">95%</option>
+                                                <option value="20">100%</option>
+                                            </select>
+                                            <label class="input-group-text col-6" for="vietnam">Vietnam</label>
+                                            <select class="dropdownlist col-6 col-md-3" id="vietnam">
+                                                    <option value="0">0%</option>
+                                                    <option value="1">5%</option>
+                                                    <option value="2">10%</option>
+                                                    <option value="3">15%</option>
+                                                    <option value="4">20%</option>
+                                                    <option value="5">25%</option>
+                                                    <option value="6">30%</option>
+                                                    <option value="7">35%</option>
+                                                    <option value="8">40%</option>
+                                                    <option value="9">45%</option>
+                                                    <option value="10">50%</option>
+                                                    <option value="11">55%</option>
+                                                    <option value="12">60%</option>
+                                                    <option value="13">65%</option>
+                                                    <option value="14">70%</option>
+                                                    <option value="15">75%</option>
+                                                    <option value="16">80%</option>
+                                                    <option value="17">85%</option>
+                                                    <option value="18">90%</option>
+                                                    <option value="19">95%</option>
+                                                    <option value="20">100%</option>
+                                            </select>
+                                            <label class="input-group-text col-6" for="ethiopia">Ethiopia</label>
+                                            <select class="dropdownlist col-6 col-md-3 " id="ethiopia">
+                                                    <option value="0">0%</option>
+                                                    <option value="1">5%</option>
+                                                    <option value="2">10%</option>
+                                                    <option value="3">15%</option>
+                                                    <option value="4">20%</option>
+                                                    <option value="5">25%</option>
+                                                    <option value="6">30%</option>
+                                                    <option value="7">35%</option>
+                                                    <option value="8">40%</option>
+                                                    <option value="9">45%</option>
+                                                    <option value="10">50%</option>
+                                                    <option value="11">55%</option>
+                                                    <option value="12">60%</option>
+                                                    <option value="13">65%</option>
+                                                    <option value="14">70%</option>
+                                                    <option value="15">75%</option>
+                                                    <option value="16">80%</option>
+                                                    <option value="17">85%</option>
+                                                    <option value="18">90%</option>
+                                                    <option value="19">95%</option>
+                                                    <option value="20">100%</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 carousel-footer">
+                                        <i class="fas fa-exclamation"></i> 
+                                        Please make sure that the sum of your percentages <b>equals 100%</b>
+                                    </div>
+                                    <div class="col-12 npbuttons">
+                                        <a href="#carouselStoreFade" role="button" data-slide="next">
+                                            <span class="buttons" aria-hidden="true">Next</span>
+                                        </a>
+                                    </div>                                                                                                                                                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item background-img couple-img">
+                            <div class="container d-flex h-100">
+                                <div class="row justify-content-center align-self-center body-container">
+                                    <h5 class="col-12 carousel-heading"><i class="fas fa-battery-half"></i> Step 2: Roasting Profile</h5>
+                                    <div class="col-12 carousel-body">
+                                        <div class="row origin-input">
+                                            <p class="col-12 p-intro">
+                                                Pick the best roasting profile that will highlight the cup attributes that you love the most. 
+                                                Visit <a href="thelab.html#carouselRoastingFade" aria-label="Navigate to the roasting profiles section at The Lab">The Lab</a> 
+                                                if you have any doubts about these profiles.
+                                            </p>
+                                            <div class="col-12">
+                                                <input  type="radio" name="roastingradios" id="cinnamon" value="0" checked>
+                                                <label  for="cinnamon"> Cinnamon Roast</label>
+                                            </div>
+                                            <div class="col-12">
+                                                <input  type="radio" name="roastingradios" id="cityroast" value="1">
+                                                <label  for="cityroast"> City Roast</label>
+                                            </div>
+                                            <div class="col-12">
+                                                <input  type="radio" name="roastingradios" id="fullcity" value="2">
+                                                <label  for="fullcity"> Full City Roast</label>
+                                            </div>
+                                            <div class="col-12">
+                                                <input  type="radio" name="roastingradios" id="american" value="3">
+                                                <label  for="american"> American Roast</label>
+                                            </div>
+                                            <div class="col-12">
+                                            <input type="radio" name="roastingradios" id="french" value="4">
+                                            <label for="french"> French Roast</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 carousel-footer">
+                                        <i class="fas fa-exclamation"></i> Remember <i class="fas fa-exclamation"></i><br>The lower the roasting degree, the higher the acidity. The higher the roasting degree, the higher the bitterness
+                                    </div>
+                                    <div class="col-12 npbuttons">
+                                        <a href="#carouselStoreFade" role="button" data-slide="prev">
+                                            <span class="buttons" aria-hidden="true">Previous</span>
+                                        </a>
+                                        <a href="#carouselStoreFade" role="button" data-slide="next">
+                                            <span class="buttons" aria-hidden="true">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item background-img couple-img">
+                            <div class="container d-flex h-100">
+                                <div class="row justify-content-center align-self-center body-container">
+                                    <h5 class="col-12 carousel-heading"><i class="fas fa-battery-three-quarters"></i> Step 3: How do you want your coffee?</h5>
+                                    <div class="col-12 carousel-body">
+                                        <div class="row origin-input">
+                                            <p class="col-12 p-intro">We're almost done!</p>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-4 checkbox">
+                                                        <input type="checkbox" name="grindbuttons" id="whole" value="0" checked>
+                                                        <label for="whole">Whole Beans</label>
+                                                    </div>                                           
+                                                    <select class="col-5 col-md-3 grind-select">
+                                                        <option disabled selected>Amount per bag</option>
+                                                        <!-- Tip: Pick this option if you have a grinder at hom  -->
+                                                        <option>250g - € 4.95 / bag</option>
+                                                        <option>500g - € 6.95 / bag</option>
+                                                        <option>1 Kg - € 11.95 / bag</option>
+                                                    </select>   
+                                                    <select class="col-5 col-md-3 grind-select">
+                                                        <option disabled selected>How many bags?</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>                                          
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-4 checkbox">
+                                                        <input type="checkbox" name="grindbuttons" id="thin" value="1">
+                                                        <label for="thin">Thin</label>
+                                                    </div>                                          
+                                                    <select class="col-5 col-md-3 grind-select">
+                                                        <option disabled selected>Amount per bag</option>
+                                                        <!-- Tip: Recommendend for Turkish Coffee -->
+                                                        <option>250g - € 4.95 / bag</option>
+                                                        <option>500g - € 6.95 / bag</option>
+                                                        <option>1 Kg - € 11.95 / bag</option>
+                                                    </select>
+                                                    <select class="col-5 col-md-3 grind-select">
+                                                        <option disabled selected>How many bags?</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>  
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-4 checkbox">
+                                                        <input type="checkbox" name="grindbuttons" id="mthin" value="2">
+                                                        <label for="mthin">Medium-Thin</label>
+                                                    </div>                                          
+                                                    <select class="col-5 col-md-3 grind-select">
+                                                        <option disabled selected>Amount per bag</option>
+                                                        <!-- Tip: For espresso lovers and italian coffee makers -->
+                                                        <option>250g - € 4.95 / bag</option>
+                                                        <option>500g - € 6.95 / bag</option>
+                                                        <option>1 Kg - € 11.95 / bag</option>
+                                                    </select>
+                                                    <select class="col-5 col-md-3 grind-select">
+                                                        <option disabled selected>How many bags?</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>  
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-4 checkbox">
+                                                        <input type="checkbox" name="grindbuttons" id="mcoarse" value="3">
+                                                        <label for="mcoarse">Medium-Coarse</label>
+                                                    </div>
+                                                    <select class="col-5 col-md-3 grind-select">
+                                                        <option disabled selected>Amount per bag</option>
+                                                        <!-- Tip: For Chemex and V60 -->
+                                                        <option>250g - € 4.95 / bag</option>
+                                                        <option>500g - € 6.95 / bag</option>
+                                                        <option>1 Kg - € 11.95 / bag</option>
+                                                    </select>
+                                                    <select class="col-5 col-md-3 grind-select">
+                                                        <option disabled selected>How many bags?</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>                                            
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-4 checkbox">
+                                                        <input type="checkbox" name="grindbuttons" id="coarse" value="4">
+                                                        <label for="coarse">Coarse</label>
+                                                    </div>
+                                                    <select class="col-5 col-md-3 grind-select">
+                                                        <option disabled selected>Amount per bag</option>
+                                                        <!-- Tip: For French press and Cold Brews -->
+                                                        <option>250g - € 4.95 / bag</option>
+                                                        <option>500g - € 6.95 / bag</option>
+                                                        <option>1 Kg - € 11.95 / bag</option>
+                                                    </select>
+                                                    <select class="col-5 col-md-3 grind-select">
+                                                        <option disabled selected>How many bags?</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 carousel-footer">
+                                        If you require any other type of packaging do not hesitate to contact us directly via any of the social links below on the page
+                                    </div>
+                                    <div class="col-12 npbuttons">
+                                        <a href="#carouselStoreFade" role="button" data-slide="prev">
+                                            <span class="buttons" aria-hidden="true">Previous</span>
+                                        </a>
+                                        <a href="#carouselStoreFade" role="button" data-slide="next">
+                                            <span class="buttons" aria-hidden="true">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item background-img couple-img">
+                            <div class="container d-flex h-100">
+                                <div class="row justify-content-center align-self-center body-container">
+                                    <h5 class="col-12 carousel-heading"><i class="fas fa-battery-full"></i> Step 4: Start the blend</h5>
+                                    <div class="col-12 carousel=body">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 final-input">
+                                                <label class="contact-labels" for="fname">First Name</label>
+                                                <input type="text" class="form-control" id="fname" placeholder="First Name" required>
+                                            </div>
+                                            <div class="col-12 col-md-6 final-input">
+                                                <label class="contact-labels" for="lname">Last Name</label>
+                                                <input type="text" class="form-control" id="lname" placeholder="Last Name" required>
+                                            </div>
+                                            <div class="col-12 final-input">
+                                                <label class="contact-labels" for="email">Email</label>
+                                                <input type="email" class="form-control" id="email" placeholder="name@domain.com" required>
+                                            </div> 
+                                            <div class="col-12 final-input">  
+                                                <label class="contact-labels" for="address">Address</label>
+                                                <input type="text" class="form-control" id="address" placeholder="Street, number, floor, apartment" required>
+                                            </div>
+                                            <div class="col-12 col-md-6 final-input">
+                                                <label class="contact-labels" for="city">City</label>
+                                                <input type="text" class="form-control" id="city" placeholder="City" required>
+                                            </div>
+                                            <div class="col-12 col-md-6 final-input">
+                                                <label class="contact-labels" for="zipcode">Zip Code</label>
+                                                <input type="text" class="form-control" id="zipcode" placeholder="Zip Code" required>
+                                            </div>
+                                            <div class="col-12 final-input">
+                                                <label class="contact-labels" for="additionalComments">Additional Comments</label>
+                                                <textarea class="form-control" id="additionalComments" rows="2" placeholder="Tell us anyhting that you might think is relevant for your blend, special requests or even any suggestion "></textarea>
+                                            </div>
+                                            <div class="col-12 final-input">
+                                                <input type="checkbox" aria-label="Checkbox for Terms & Conditions" required>
+                                                <p class="smalltext"> I agree with the <a data-target="#termsandconditions" data-toggle="modal" href="#termsandconditions" aria-label="Access to the terms and conditions">Terms&Conditions</a></p>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                    <div class= "col-12 npbuttons">
+                                        <a href="#carouselStoreFade" role="button" data-slide="prev">
+                                            <span class="buttons" aria-hidden="true">Previous</span>
+                                        </a>
+                                        <button class="buttons" type="submit" data-toggle="modal" data-target="#order"><i class="fas fa-shopping-cart"></i> Let's blend</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Substription Section -->
+        <section>
+            <div class="hero-container">
+                <div class="container-fluid d-flex h-100 subscription-bg-img" id="coffee-newsletter">
+                    <div class="row justify-content-center align-self-center subscription-container">
+                        <h2 class="col-12" id="subscription-heading"> Check out first-hand what we've been working on for you!</h2>
+                        <div class=" col-12" id="newsform">
+                            <form class="justify-content-center align-self-center" id="subscribe-form-lab">
+                                <i class="far fa-newspaper"></i>
+                                <label class="sr-only" for="inlineFormInput">Email</label>
+                                <input type="email" class="form-control mb-1" id="inlineFormInput" placeholder="Your email here to stay tuned!" required>
+                                <button type="submit" class="buttons mt-2">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscription Modal -->
+        <div class="modal fade" id="subscribe-store-modal" tabindex="-1" role="dialog" aria-label="Subscription module confirmation" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title" id="#subscribe"><i class="far fa-newspaper"></i> Welcome to The Coffee Palate family</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                <div class="modal-body">
-                    Thank you for subscribing to our newsletter. We will be in touch!
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn buttons" data-dismiss="modal">Close</button>
-                </div>
+                    <div class="modal-body">
+                        Thank you for subscribing to our newsletter. We will be in touch!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn buttons" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="termsandconditions" tabindex="-1" role="dialog" aria-labelledby="Terms & Conditions modal" aria-hidden="true">
+
+        <!-- Terms and conditions Modal -->
+        <div class="modal fade" id="termsandconditions" tabindex="-1" role="dialog" aria-label="Terms & Conditions modal" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title" id="#termsandconditions"><i class="far fa-list-alt"></i> Terms & Conditions</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                <div class="modal-body">
-                    <p>I aknowledge that my blend will only be processed after receiving invoice by e-mail and proceeding with its payment within 5 working days</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn buttons" data-dismiss="modal">Close</button>
-                </div>
+                    <div class="modal-body">
+                        <p>I acknowledge that my blend will only be processed after receiving invoice by e-mail and proceeding with its payment within 5 working days</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn buttons" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
-        </div>        
-        <div class="modal fade" id="order-modal" tabindex="-1" role="dialog" aria-labelledby="Order modal confirmation" aria-hidden="true">
+        </div>   
+
+        <!-- Submit Order Modal -->
+        <div class="modal fade" id="order-modal" tabindex="-1" role="dialog" aria-label="Order modal confirmation" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title" id="#order"><i class="fas fa-shopping-cart"></i> Thank you for placing your order</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                <div class="modal-body">
-                    <p>You will be receiving your invoice by email shortly.<br>Please proceed with its payment within <b>5 days</b> so we can start processing your oder.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn buttons" data-dismiss="modal">Close</button>
-                </div>
+                    <div class="modal-body">
+                        <p>You will be receiving your invoice by email shortly.<br>Please proceed with its payment within <b>5 days</b> so we can start processing your order.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn buttons" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
-        </div>        
-	<footer>
-		<div class="row">
-            <div class="col-12 d-flex justify-content-center align-items-center">
-                <ul class="list-inline mb-0" id="social-links">
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
-                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="mailto:info@thecoffeepalate.com" target="_blank">
-                            <i class="far fa-envelope" aria-hidden="true"></i>
-                            <span class="sr-only">Email</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://wa.me/31629608535" target="_blank" rel="noopener">
-                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                            <span class="sr-only">Whatsapp</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center" id="copyright">© Copyright 2020</div>
-        </div>
-	</footer>
+        </div> 
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-	</script>
-<!-- Javascript for form adapted from https://anouksmet.github.io/Naturazy/  -->
-    <script>
-    $('#subscribe-form-store').submit(function (e) {
-        e.preventDefault();
-        $('#subscribe-store-modal').modal('show');
-    }); 
-    </script>
-    <script>
-    $('#order-form').submit(function (e) {
-        e.preventDefault();
-        $('#order-modal').modal('show');
-    }); 
-    </script>
-</body>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <ul class="list-inline mb-0" id="social-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="mailto:info@thecoffeepalate.com" target="_blank">
+                                <i class="far fa-envelope" aria-hidden="true"></i>
+                                <span class="sr-only">Email</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://wa.me/31629608535" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                <span class="sr-only">Whatsapp</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center" id="copyright">© Copyright 2020</div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+
+    <!-- Javascript for form adapted from https://anouksmet.github.io/Naturazy/  -->
+        <script>
+        $('#subscribe-form-store').submit(function (e) {
+            e.preventDefault();
+            $('#subscribe-store-modal').modal('show');
+        }); 
+        </script>
+        <script>
+        $('#order-form').submit(function (e) {
+            e.preventDefault();
+            $('#order-modal').modal('show');
+        }); 
+        </script>
+    </body>
 </html>
