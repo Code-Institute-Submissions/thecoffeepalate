@@ -206,6 +206,7 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 * Imediate payment of the order through credit card, [Stripe](https://stripe.com/en-nl "Stripe") and [Paypal](https://www.paypal.com/nl/home "Paypal")
 * Carousel on [TheLab] page with information on different brewing methods
 * Updates Terms&Conditions under the [GDPR](https://gdpr-info.eu/ "GDPR") on how user data is used
+* Implement an interactive shopping cart so the user can visualize in real-time his/her order and correspondant pricing
 
 ---
 
@@ -226,6 +227,7 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 ### **Tools**
 * [Git](https://git-scm.com/ "Git")
 * [Gitpod](https://gitpod.io/ "Gitpod")
+* [Balsamiq](https://balsamiq.com/ "Balsamiq")
 * [W3C-Markup-validation](https://validator.w3.org/ "Markup Validator")
 * [W3C-Jigsaw](https://jigsaw.w3.org/css-validator/ "Jigsaw Validator")
 * [Google-Lightouse](https://developers.google.com/web/tools/lighthouse "Google Lighthouse") 
@@ -237,7 +239,71 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 ---
 
 ## **Testing & Debugging**
-### **Testing**
+<!-- ### **Testing**
+#### **Requirements**
+* Easy navigation.
+* Interesting and pertinent content about coffee and blends.
+* Clear pricing information.
+* Good access points to contact the company.
+
+#### **Expectations** -->
+
+### **Order**
+
+#### **User Stories & Requirements** ####
+* buy good quality and year-round consistent coffee.**
+* be able to select several origins to use in my blend.**
+* Clear information about the steps to make my own blend**
+* Receive feedback after submitting my order through the form.
+* During the blending process, user wants to receive tips through "Tooltips".
+* Reach out to the user's specific blend throughout no more than 4 steps.
+
+##### **Plan of action** #####
+##### **Execution** #####
+##### **Testing** #####
+##### **Test result** #####
+##### **Conclusion** #####
+
+
+### **Knowledge acquired**
+#### **User Stories & Requirements** ####
+* User Story: be able to learn more about coffee produced worldwide.
+* User Story: get to know where my coffee comes from.
+* User Story: understand about the different roasting profiles.
+
+##### **Plan of action** #####
+##### **Execution** #####
+##### **Testing** #####
+##### **Test result** #####
+##### **Conclusion** #####
+
+
+### **Navigation**
+#### **User Stories & Requirements** ####
+* User Story: access an intuitive website, easy to navigate.
+* Strong connection with website visual effects.
+* Links must be working properly to reach the target with any setbacks.
+
+##### **Plan of action** #####
+##### **Execution** #####
+##### **Testing** #####
+##### **Test result** #####
+##### **Conclusion** #####
+
+
+### **Contacts**
+#### **User Stories & Requirements** ####
+* User Story: easily find the company contacts.
+* User Story: easily find the company's social networks.
+* When clicking on links to external pages, I expect the new page to be opened in a separate browser tab.
+
+##### **Plan of action** #####
+##### **Execution** #####
+##### **Testing** #####
+##### **Test result** #####
+##### **Conclusion** #####
+
+
 ### **Debugging**
 
 ---
