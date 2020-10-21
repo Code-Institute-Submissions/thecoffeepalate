@@ -1,6 +1,6 @@
 # **The Coffee Palate**
 
-Here comes the mockup image.
+![Mokup Image](wireframes/mokup_image.png)
 
 ---
 
