@@ -20,6 +20,11 @@ a {
     color: #ed8074;
 }
 
+a:hover {
+        color:#1d7a8c;
+        text-decoration: none;
+    }
+
 /* Navbar */
 
 #navbar-tcp {
@@ -44,6 +49,7 @@ a {
     text-align: center;
     border-radius: 1vw;
 }
+
 
 #navbar-brand {
     font-family: "Allerta Stencil", sans-serif;
@@ -465,13 +471,7 @@ a {
 }
 
 @media (min-width: 992px) {
-    
-    /* General styling */
 
-    a:hover {
-        color:#1d7a8c;
-        text-decoration: none;
-    }
  
     /* Navigation */
 
