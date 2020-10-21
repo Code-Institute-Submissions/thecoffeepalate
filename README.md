@@ -446,6 +446,15 @@ Modals not centered
 Modals where not being displayed centered has the width of the modal class was set to 90%.
 Changing it to 100% solved the bug.
 
+##### **Bug** #####
+User can proceed through the first and third step of the order form without selecting the percentages of coffee for the blend and without selecting the amount of bags/amount of coffee er bag.
+##### **(Potential) Corrections** #####
+In the future I would like impplement some validation code on this steps to prevente the user of proceeding forward without filling this content.
+For instance, if the total ofthe blend does not equal 100%, the user will not be able to go to step 2.
+On the same line, the user will have to tick the box of the desired grind in order to be able to choose the amount of bags/amount of coffee per bag. User will only proceed if input fields linked 
+with the checkbox selected are duly filled.
+To minimize the impact of this issue, I have chosen to place clear warnings/advices throughout the form.
+
 ---
 
 ## **Deployment**
