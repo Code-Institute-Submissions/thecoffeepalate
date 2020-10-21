@@ -238,6 +238,7 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 * [Microsoft Excel](https://www.microsoft.com/en/microsoft-365/excel "Excel")
 * [Contrast-Checker](https://coolors.co/contrast-checker "Contrast Checker")
 * [Techsini](http://techsini.com/multi-mockup/ "Techsini")
+* [Favicon](https://favicon.io/favicon-converter/ "Favcicon")
 
 ---
 
@@ -476,10 +477,14 @@ https://coffeeattendant.com/2018/04/24/these-are-the-coffee-flavors-by-country/
 https://www.sucafina.com/emea/origins/vietnam?price=EUR
 
 ### **Acknowledgments**
-I would like to thank my mentor, [Anna_Villanueva](https://github.com/annavillanueva "Anna Villanueva Github page"), for all the inputs and guidance throughout the past months.
+To accomplish this website I have used some content from [Stackoverflow](https://stackoverflow.com/questions "Stackoverflow") community, to whom I would like to thank for all the suggestions and content made publicly available.
+
+Also, some parts of the code have been based on the content available in [W3Schools](https://www.w3schools.com/ "W3Schools") and [Bootstrap](https://getbootstrap.com/ "Bootstrap") that allowed me attain the final result.
+
+A big thank you to my mentor, [Anna_Villanueva](https://github.com/annavillanueva "Anna Villanueva Github page"), for all the inputs and guidance throughout the past months.
 
 To my friends and familiy that took time to test and re-test the website and for their valuable recommendations.
 
-Last but for sure not the least, a special thanks to my wife-to-be, Anouk, for all the suggestions, inputs, testing and above all for the extreme patience shown during this journey.
+Last but for sure not the least, a special thanks to my wife-to-be, Anouk, for all the suggestions, inputs, testing and above all for the extreme patience and support shown during this journey.
 
 Thank you all!
