@@ -95,7 +95,7 @@ I trust that both typographies used blend very well with each other, creating a 
 #### Icons
 The icons that I will be using throughout my page are from [FontAwesome](https://fontawesome.com/ "FontAwesome").
 
-The icons choosen are easy to understand and in line with the company branding , providing interest and supporting the navigation.
+The icons chosen are easy to understand and in line with the company branding , providing interest and supporting the navigation.
 
 For instance, the navigation bar will collapse into a hambuger icon in mobile devices.
 
@@ -137,21 +137,29 @@ The Blending store is the place where the magic happens. Here, the consumer can 
 
 ## **Wireframes**
 ### **Mobile** ###
-#### **V1** ####
-#### **V2** ####
+[Home](wireframes/home_sm.png)
+[The Lab](wireframes/thelab_sm.png)
+[The Store](wireframes/thestore_sm.png)
+
 ### **Tablet** ###
-#### **V1** ####
-#### **V2** ####
+[Home](wireframes/home_md.png)
+[The Lab](wireframes/thelab_md.png)
+[The Store](wireframes/thestore_md.png)
+
 ### **Desktop** ###
-#### **V1** ####
-#### **V2** ####
+[Home](wireframes/home_lg.png)
+[The Lab](wireframes/thelab_lg.png)
+[The Store](wireframes/thestore_lg.png)
+
+### **Changes throughout the coding**
+
 
 ---
 
 ## **Features**
 ### **Existing Features**
 #### ***Navigation bar***
-For the navigation bar, I have used Bootstrap to implement a responsive navbar across devices. In this case, the navbar is 100% visable in large screens, while on small/medium devices it will collapse into a hamburger menu, resulting in space saving of the real-estate.
+For the navigation bar, I have used Bootstrap to implement a responsive navbar across devices. In this case, the navbar is 100% visable in large screens, while on small/medium devices it will collapse into a dropdown menu, resulting in space saving of the real-estate.
 
 Moreover, the navbar will highlight the page where you are.
 
@@ -159,7 +167,9 @@ Moreover, the navbar will highlight the page where you are.
 #### ***Landing page***
 The landing page is displayed through 3 hero-images, each representing a separate section.
 
-On the first two sections, custom buttons were implemented to give the user another ossibility than the navbar tonavigate to the correspondingpages.
+The first section gives an introductory paragraph about The Coffee Palate project.
+
+On the following two sections, custom buttons were implemented to give the user another ossibility than the navbar tonavigate to the correspondingpages.
 
 The last section is the subscriptioin section, which is implemented the same way across the pages.
 
@@ -176,6 +186,7 @@ Therefore, I saw the need to restructure the carousels so they would work proper
 
 #### ***The Store***
 The store has a similar structure to the [The-Lab] page, whereas only one carousel is used instead of two.
+
 On the same line as [The-Lab], this page also run into the same issues with the carousel. Insted of having variable content across slides (i.e text and graphs/diagrams) a form has been implemented.
 
 Embeeding a form that has several steps, and consequently varies in height throughout the form itself, into a carousel was quite tricky.
@@ -186,7 +197,8 @@ To solve the responsiveness across devices, the solution passed by restructuring
 #### ***Subscription***
 The subscription section was an idea that came across through the actual coding and not idealized in the design process, result of missing some more intereactivity with the user.
 
-Firstly, this section was implemented in the footer, but after discussing with my mentor and checking several other webpages, the decision was to implement it as an individual section to be used throughout the 3 htmls.
+Firstly, this section was implemented in the footer, but after discussing with my mentor and checking several other webpages, the decision was to implement it as an individual 
+section to be used throughout the 3 html pages.
 
 For this section I have used the Bootstrap flex grid.
 
@@ -208,7 +220,7 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 * Updates Terms&Conditions under the [GDPR](https://gdpr-info.eu/ "GDPR") on how user data is used
 * Implement an interactive shopping cart so the user can visualize in real-time his/her order and correspondant pricing
 * User receive confirmation email after placing the order
-* Tooltips on parts of 
+* Tooltips on parts of the page where additional information might be required (i.e the type of grinding that is not covered on The Lab)
 
 ---
 
@@ -302,7 +314,7 @@ On the first carousel, user can know where the coffee comes from. As The Coffee 
 
 The roasting process is quite complex, the reason why I have opted to present through a diagram the range of acidity/bitterness that the coffee undergoes whilst roasting. For the common mortal, this information is more than enough to understand which degree to choose for his/her blend.
 
-Morover, whilst the first carousel presents fun facts about the origin to make the content more appealing, the second carousel presents *tips* instead. This because the choosing process is more complex during this stage than choosing the favourite origin based on the graphs presented.
+Morover, whilst the first carousel presents fun facts about the origin to make the content more appealing, the second carousel presents *tips* instead. This because the choosing process is more complex during this stage than choosing the favourite origin based on the radial graphs presented.
 
 ##### **Testing** #####
 Entered *The Lab* page and scrolled down to the origins carousel. The info presented is clear, appealing, easy to understand and easy to compare between origins.
@@ -359,7 +371,7 @@ For the sake of ease of navigation, I have implemented through Bootstrap a toggl
 The user can also know on each section he/she is due to the pseud-class:active that gives that specific section on the navbar a fixed color. This does not apply to the subscription link as it is transversal to all the pages, sending the user to the bottom of each of the pages.
 
 * Hero-images
-The hero-containers applied via Bootstrap included a min-heigh of 6vh in the backgound-images guaranting that the user can get a sneak-peek of what comes below when the content does not exceed this height.
+The hero-containers applied via Bootstrap included a min-heigh of 60vh in the backgound-images giving the user a sneak-peek of what comes below when the content does not exceed this height.
 As the content is of extreme importance, this sneak-peek stops applying if necessary.
 
 * Carousels
@@ -424,7 +436,7 @@ a:hover color was within the media query for big screens.
 Moving this element styling to the top of the CSS below the main a element solved the issue.
 
 ##### **Bug** #####
-Hamburguer menu not colapsing automatically when choosing the subscribe option
+Dropdown menu not colapsing automatically when choosing the subscribe option
 ##### **(Potential) Corrections** #####
 At the moment I don't have the necessary skills to solve this bug, but certainly this is possible to correct with some Javascript
 
