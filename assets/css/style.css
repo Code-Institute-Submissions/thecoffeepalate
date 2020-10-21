@@ -287,7 +287,7 @@ a {
 /* Carousel Store */
 
  .dropdownlist {
-    font-size: min(max(1.1rem, 2.1vw),2.5rem);
+    font-size: min(max(1.6rem, 2.1vw),2.5rem);
     color: inherit;
     text-align: center;
 } 
@@ -360,6 +360,20 @@ a {
     box-shadow: 0 0 0 0.4rem rgba(237, 128, 116, 0.25);
 }
 
+
+/* Go to store section */
+
+#go-to-store {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#go-to-store-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2rem;
+}
+
 /* Footer */
 
 #footer {
@@ -402,7 +416,7 @@ a {
     padding: 1px 6px;
     border: 0.3rem solid #0b3037;
     font-weight: 700;
-    font-size: min(max(1.1rem, 2.1vw),2rem);
+    font-size: min(max(1.6rem, 2.1vw),2rem);
 }
 
 .buttons:hover{
@@ -414,7 +428,7 @@ a {
 /* Bootstrap modals */
 
 .modal-content {
-    width: 90%;
+    width: 100%;
     color: #0b3037;
 }
 
@@ -423,10 +437,11 @@ a {
 }
 
 .modal-title {
-    font-size: min(max(1.5rem, 2.1vw),2.8rem);
+    font-size: min(max(1.8rem, 2.1vw),2.8rem);
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
+    width: 100%;
 }
 
 .modal-title > .far {
@@ -434,10 +449,13 @@ a {
 }
 
 .modal-body {
-    font-size: min(max(1.1rem, 2.1vw),2.5rem);
-    text-align: justify;
+    font-size: min(max(1.6rem, 2.1vw),2.5rem);
+    text-align: center;
 }
 
+.modal-paragraph {
+    text-align: center;
+}
 
 
 @media (min-width: 600px) and (min-height: 600px) {
@@ -458,7 +476,7 @@ a {
     /* Navigation */
 
     .nav-link {
-        font-size: min(max(1rem, 1vw),2rem);
+        font-size: min(max(1.6rem, 1vw),2rem);
         font-weight: 700;
         border-top: double #ed8074;
         border-bottom: double #ed8074;
@@ -466,6 +484,12 @@ a {
         border-radius: unset;
         margin: 0.5vw;
         height: auto;
+        letter-spacing: 0.7vw;
+    }
+
+    .navbar-expand-lg,
+    .navbar-collapse {
+        justify-content: flex-end;
     }
 
     .nav-link:hover {
@@ -490,7 +514,7 @@ a {
 
     #navbar-logo {
         width: 5vw;
-        margin-left: 2vw;
+        margin: 0 0.5rem;
     }
 
   /* Hero Containers */
