@@ -19,14 +19,77 @@ All of this, through an appealing, intuitive website with straight-forward and c
 Thank you for visiting my project and do not hesitate to contact me via GitHub if you have any doubts or concerns related to The Coffee Palate project.
 
 ---
+<a></a>
 
-## **Table of contents** 
+## **Table of contents**
+
+1. [UX](#ux)
+
+    1.1 [User Goals and Stories](#user-goals-and-stories)
+
+    1.2 [User Requirements and Expectations](#user-requirements-and-expectations)
+    
+    1.3 [Company Goals](#company-goals)
+    
+    1.4 [Design Choices](#design-choices)
+
+2. [Wireframes](#wireframes)
+ 
+    2.1 [Mobile](#mobile)
+ 
+    2.2 [Tablet](#tablet)
+ 
+    2.3 [Desktop](#desktop)
+ 
+    2.4 [Changes throughout the coding](#changes-throughout-the-coding)
+
+3. [Features](#features)
+ 
+    3.1 [Existing Features](#existing-features)
+ 
+    3.2 [Future Features](#future-features)
+
+4. [Languages, Libraries, Frameworks and Tools](#languages-libraries-frameworks-and-tools)
+ 
+    4.1 [Languages](#languages)
+ 
+    4.2 [Libraries](#libraries)
+ 
+    4.3 [Frameworks](#frameworks)
+ 
+    4.4 [Tools](#tools)
+
+5. [Testing and Debugging](#testing-and-debugging)
+ 
+    5.1 [Ordering Process](#ordering-process)
+ 
+    5.2 [Knowledge Acquired](#knowledge-acquired)
+ 
+    5.3 [Navigation](#navigation)
+ 
+    5.4 [Contacts and Social Links](#contacts-and-social-links)
+ 
+    5.5 [Debugging](#debugging)
+
+6. [Deployment](#deployment)
+
+7. [Credits and Acknowledgments](#credits-and-acknowledgments)
+ 
+    7.1 [Credits](#credits)
+ 
+    7.2 [Acknowledgments](#acknowledgments)
 
 ---
+<a></a>
 
 ## **UX**
+
 ---
-### **User Goals & Stories**
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
+### **User Goals and Stories**
 
 #### **Goals**
 As a user I aim for:
@@ -48,7 +111,11 @@ As a user, I want to:
 * easily find the company contacts.
 * easily find the company's social networks.
 
-#### **User Requirements & Expectations**
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
+### **User Requirements and Expectations**
 
 #### **Requirements**
 * Easy navigation.
@@ -66,6 +133,10 @@ As a user, I want to:
 * Links must be working properly to reach the target with any setbacks.
 * Receive feedback after submitting my order through the form.
 
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
 ### **Company Goals**
 
 As the company owner, I want to:
@@ -76,6 +147,10 @@ As the company owner, I want to:
 * Promote different coffee origins.
 * Educate the readers in regard to the different roasting profiles available.
 * Convert webpage readers into potential customers.
+
+[[Back to top]](#table-of-contents)
+
+<a></a>
 
 ### **Design Choices**
 As a coffee roaster specialized in blends, I tried to choose colors, both cold and warm, that work harmoniously, standing out the same effect expected on a blend from different origins and coffee with different profiles.</p>
@@ -133,30 +208,50 @@ The Lab is the educational part of the website where readers can come to learn m
 ##### Blending Store
 The Blending store is the place where the magic happens. Here, the consumer can put into practice his/her new-found knowledge and create their own unique blend.
 
+[[Back to top]](#table-of-contents)
+
 ---
+<a></a>
 
 ## **Wireframes**
+
+<a></a>
+
 ### **Mobile** ###
 [Home](wireframes/home_sm.png)
 [The Lab](wireframes/thelab_sm.png)
 [The Store](wireframes/thestore_sm.png)
+
+<a></a>
 
 ### **Tablet** ###
 [Home](wireframes/home_md.png)
 [The Lab](wireframes/thelab_md.png)
 [The Store](wireframes/thestore_md.png)
 
+<a></a>
+
 ### **Desktop** ###
 [Home](wireframes/home_lg.png)
 [The Lab](wireframes/thelab_lg.png)
 [The Store](wireframes/thestore_lg.png)
 
+<a></a>
+
 ### **Changes throughout the coding**
 
+[[Back to top]](#table-of-contents)
 
 ---
 
+<a></a>
+
 ## **Features**
+
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
 ### **Existing Features**
 #### ***Navigation bar***
 For the navigation bar, I have used Bootstrap to implement a responsive navbar across devices. In this case, the navbar is 100% visable in large screens, while on small/medium devices it will collapse into a dropdown menu, resulting in space saving of the real-estate.
@@ -210,6 +305,10 @@ This is a simple and intutitive way of approaching it.
 #### ***Modals***
 Feeback to the user throughout the website and actions is fundamental. To address this user need, I have decided to implement modals linked to the "Subscribe" and "Place Order" buttons. 
 
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
 ### **Future Features**
 * Track&Trace for each order
 * Personal profiles with history of user's purchases and blends
@@ -222,21 +321,42 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 * User receive confirmation email after placing the order
 * Tooltips on parts of the page where additional information might be required (i.e the type of grinding that is not covered on The Lab)
 
+[Back to top](#ux)
+
 ---
 
-## **Languages, Libraries, Frameworks & Tools**
+<a></a>
+
+## **Languages, Libraries, Frameworks and Tools**
+
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
 ### **Languages**
 * [HTML](https://www.w3.org/MarkUp/1995-archive/html-spec.html "HTML")
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html "CSS")
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript "Javascript")
+
+[[Back to top]](#table-of-contents)
+
+<a></a>
 
 ### **Libraries**
 * [FontAwesome](https://fontawesome.com/ "FontAwesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Unsplash](https://unsplash.com/ "Unsplash)
 
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
 ### **Frameworks**
 * [Bootstrap](https://getbootstrap.com/ "Bootstrap")
+
+[[Back to top]](#table-of-contents)
+
+<a></a>
 
 ### **Tools**
 * [Git](https://git-scm.com/ "Git")
@@ -252,15 +372,24 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 * [Techsini](http://techsini.com/multi-mockup/ "Techsini")
 * [Favicon](https://favicon.io/favicon-converter/ "Favcicon")
 
+
+[Back to top](#ux)
+
 ---
 
-## **Testing & Debugging**
+[[Back to top]](#table-of-contents)
 
-#### **Expectations**
+<a></a>
 
-### **Order**
+## **Testing and Debugging**
 
-#### **User Stories & Requirements** ####
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
+### **Ordering Process**
+
+#### **User Stories and Requirements** ####
 * Buy good quality and year-round consistent coffee.
 * Be able to select several origins to use in my blend.
 * Clear information about the steps to make my own blend and reach out to the user's specific blend throughout no more than 4 steps.
@@ -297,8 +426,12 @@ The second and final topic to tackle in future releases would be the clear prici
 The test passes 67% of the stories and requirements and works as planned.
 The remaining 33% (clear price information and tooltips) are still to be implemented due to lack of time and knowledge.
 
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
 ### **Knowledge acquired**
-#### **User Stories & Requirements** ####
+#### **User Stories and Requirements** ####
 * Be able to learn more about coffee produced worldwide and get to know where my coffee comes from.
 * Understand about the different roasting profiles.
 * Interesting and pertinent content about coffee and blends.
@@ -327,8 +460,12 @@ Carousels are working properly and all the info is passed withou any issue to th
 ##### **Conclusion** #####
 The test passes all the criteria.
 
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
 ### **Navigation**
-#### **User Stories & Requirements** ####
+#### **User Stories and Requirements** ####
 * Access an intuitive website, easy to navigate.
 * Strong connection with website visual effects.
 * Links must be working properly to reach the target without any setbacks.
@@ -397,9 +534,13 @@ External links are internal *The Lab* links within the carousel form, open in a 
 ##### **Conclusion** #####
 Test matches fully the user requirements and passes all the criteria
 
-### **Contacts & Social Links**
-#### **User Stories & Requirements** ####
-* Easily find the company contacts & social networks.
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
+### **Contacts and Social Links**
+#### **User Stories and Requirements** ####
+* Easily find the company contacts and social networks.
 * When clicking on links to external pages, I expect the new page to be opened in a separate browser tab.
 * Good access points to contact the company.
 
@@ -420,8 +561,12 @@ All links are working properly and opening either on a new tab or on the corresp
 ##### **Conclusion** #####
 Test fully matches the user requirements and address the user stories, passing all the criteria.
 
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
 ### **Debugging**
-#### **Known Bugs & Corrections** ####
+#### **Known Bugs and Corrections** ####
 
 ##### **Bug** #####
 horizontal scroll-bar displaying on mobile
@@ -455,7 +600,11 @@ On the same line, the user will have to tick the box of the desired grind in ord
 with the checkbox selected are duly filled.
 To minimize the impact of this issue, I have chosen to place clear warnings/advices throughout the form.
 
+[[Back to top]](#table-of-contents)
+
 ---
+
+<a></a>
 
 ## **Deployment**
 
@@ -471,9 +620,18 @@ The page is now live on https://arturmpinho.github.io/thecoffeepalate/
 
 The page updates automatically after commit and push to Github any potential change.
 
+[[Back to top]](#table-of-contents)
+
 ---
 
-## **Credits & Acknowledgments**
+<a></a>
+
+## **Credits and Acknowledgments**
+
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
 ### **Credits**
 #### **Media**
 You can find all the images sources through the collection prepared [here](https://unsplash.com/collections/61301103/the-coffee-palate "Unsplash").
@@ -497,10 +655,16 @@ https://coffeeattendant.com/2018/04/24/these-are-the-coffee-flavors-by-country/
 
 https://www.sucafina.com/emea/origins/vietnam?price=EUR
 
+[[Back to top]](#table-of-contents)
+
+<a></a>
+
 ### **Acknowledgments**
 To accomplish this website I have used some content from [Stackoverflow](https://stackoverflow.com/questions "Stackoverflow") community, to whom I would like to thank for all the suggestions and content made publicly available.
 
 Also, some parts of the code have been based on the content available in [W3Schools](https://www.w3schools.com/ "W3Schools") and [Bootstrap](https://getbootstrap.com/ "Bootstrap") that allowed me attain the final result.
+
+All software and applications used to create this website are mentioned above in section [Languages_Libraries_Frameworks_and_Tools].
 
 A big thank you to my mentor, [Anna_Villanueva](https://github.com/annavillanueva "Anna Villanueva Github page"), for all the inputs and guidance throughout the past months.
 
@@ -509,3 +673,5 @@ To my friends and familiy that took time to test and re-test the website and for
 Last but for sure not the least, a special thanks to my wife-to-be, Anouk, for all the suggestions, inputs, testing and above all for the extreme patience and support shown during this journey.
 
 Thank you all!
+
+[[Back to top]](#table-of-contents)
