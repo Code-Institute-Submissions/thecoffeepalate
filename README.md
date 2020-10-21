@@ -196,7 +196,7 @@ The contact options are placed in the footer of the page, displaying social link
 This is a simple and intutitive way of approaching it.
 
 #### ***Modals***
-Feeback to the user throughout the website and actions is fundamental. To address this user need, I have decided to implement modals linked to the "Susbscribe" and "Place Order" buttons. 
+Feeback to the user throughout the website and actions is fundamental. To address this user need, I have decided to implement modals linked to the "Subscribe" and "Place Order" buttons. 
 
 ### **Future Features**
 * Track&Trace for each order
@@ -208,6 +208,7 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 * Updates Terms&Conditions under the [GDPR](https://gdpr-info.eu/ "GDPR") on how user data is used
 * Implement an interactive shopping cart so the user can visualize in real-time his/her order and correspondant pricing
 * User receive confirmation email after placing the order
+* Tooltips on parts of 
 
 ---
 
@@ -249,81 +250,188 @@ Feeback to the user throughout the website and actions is fundamental. To addres
 #### **User Stories & Requirements** ####
 * Buy good quality and year-round consistent coffee.
 * Be able to select several origins to use in my blend.
-* Clear information about the steps to make my own blend.
+* Clear information about the steps to make my own blend and reach out to the user's specific blend throughout no more than 4 steps.
 * Receive feedback after submitting my order through the form.
-* During the blending process, user wants to receive tips through "Tooltips".
-* Reach out to the user's specific blend throughout no more than 4 steps.
 * Clear pricing information.
+* During the blending process, user wants to receive tips through "Tooltips".
 
+##### **UX** #####
+When user enters the store he/she must intuitively understand how to proceed with the purchase, receiving all relevant information to attain his/her unique blend.
 
-##### **Plan of action** #####
 ##### **Execution** #####
-##### **Testing** #####
-##### **Test result** #####
-##### **Conclusion** #####
+To tackle these needs and requirements I have implemented a form within a carousel where, throughout well-defined 4 steps, the user starts by choosing the blend origins via dropdown lists with percentages. In doubt, the user can navigate back to *The Lab* to clarify any doubt or obtain any suggestions through the corresponding carousel, through the link placed there for that purpose.
 
+The second step is to choose the roasting-degree. At this point the user can pick through radio buttons which kind he/she thinks will fit better with his/her preferences. As the previous step, the user can navigate back to *The Lab* via the link placed there for the purpose.
+
+Third step passes by choosing the type of grind, together with the amounts needed. At this stage, the user is faced with the "pricing policy".
+
+Fourth and final step of the order is a contact form with mandatory fields, where the invoice is to be sent.
+
+After accepting *Terms&Conditions*, the user receivs immediate feedback provided with a modal that the order has been placed and which steps follow.
+
+##### **Testing** #####
+
+I have gone through the four steps of the order and found out that the pricing method displayed is not sufficient clear.
+Also, as we are in a middle of a form and don't want to loose the data inserted so far, by clicking on the link back to *The Lab*, this was opening in the same tab which was afecting the user experience. Thereof, target="_blank" attribute has been included in the corresponding anchor element.
+
+##### **Test result** #####
+
+The order testing clearly passes 4 out of 6 stories and requirements. 
+The first topic to address in future releases would be the tooltips, that due to time constraints I was not able to implement in due course. Using Bootstrap tooltips might be the fastest option to guarantee compatibility and responsivness with the rest of the website.
+The second and final topic to tackle in future releases would be the clear pricing information, for which I would have to use deeper developing languages, like Javascript, and at the moment I don't have the knowledge to implement an interactive shopping cart so the user can visualize in real-time his/her order and correspondant pricing.
+ 
+##### **Conclusion** #####
+The test passes 67% of the stories and requirements and works as planned.
+The remaining 33% (clear price information and tooltips) are still to be implemented due to lack of time and knowledge.
 
 ### **Knowledge acquired**
 #### **User Stories & Requirements** ####
-* Be able to learn more about coffee produced worldwide.
-* Get to know where my coffee comes from.
+* Be able to learn more about coffee produced worldwide and get to know where my coffee comes from.
 * Understand about the different roasting profiles.
 * Interesting and pertinent content about coffee and blends.
 
-##### **Plan of action** #####
-##### **Execution** #####
-##### **Testing** #####
-##### **Test result** #####
-##### **Conclusion** #####
+##### **UX** #####
+When user navigates to *The Lab*, he must infer automatically where the info he/she is looking for is.
 
+##### **Execution** #####
+To display the learning content on *The Lab* page, I have implemented two separate carousels. One for the coffee origins and another for the roasting profiles.
+Has both carousels present only 5 items each, using this option is appropriate. If there were a lot more items, most probbaly I would have to re-think the full content display on the page.
+
+On the first carousel, user can know where the coffee comes from. As The Coffee Palate only provides standard coffee, a general briefing of the coffee sector per country is sufficient.
+
+The roasting process is quite complex, the reason why I have opted to present through a diagram the range of acidity/bitterness that the coffee undergoes whilst roasting. For the common mortal, this information is more than enough to understand which degree to choose for his/her blend.
+
+Morover, whilst the first carousel presents fun facts about the origin to make the content more appealing, the second carousel presents *tips* instead. This because the choosing process is more complex during this stage than choosing the favourite origin based on the graphs presented.
+
+##### **Testing** #####
+Entered *The Lab* page and scrolled down to the origins carousel. The info presented is clear, appealing, easy to understand and easy to compare between origins.
+
+Moved to the second carousel. Info is clear and self-explanatory.
+
+##### **Test result** #####
+Carousels are working properly and all the info is passed withou any issue to the user.
+
+##### **Conclusion** #####
+The test passes all the criteria.
 
 ### **Navigation**
 #### **User Stories & Requirements** ####
 * Access an intuitive website, easy to navigate.
 * Strong connection with website visual effects.
-* Links must be working properly to reach the target with any setbacks.
-* Easy navigation.
+* Links must be working properly to reach the target without any setbacks.
 
-##### **Plan of action** #####
+##### **UX** #####
+* Landing Page
+
+When the user enters the landing page, he/she is confronted with a clear and intuitive website.
+
+Throughout the navigation bar / dropdown menu (triggered by the "coffee mug icon"), the user can access the 2 main sections: *The Lab* and *The Store*.
+Also, the user has always available the option to navigate to the *Subscribe* section, either via the navbar/dropdown menu or scrolling to the bottom of the page.
+
+Moreover, on big screens the user can know on each section of the page he/she highlighting the specific section
+
+On top of this, the user is confronted with 3 impactful hero-images, where the last 2 display 1 button each to navigate to the corresponding page.
+
+Reaching the bottom of the page, the user can visually identify the points of contact with the company.
+
+* The Lab
+
+When user get to *The Lab* it is confronted with the same structure, creating a feeling of harmony during the navigation.
+
+At this stage, user is faced with 2 carousels displaying useful information for the blending process. These present a very easy, intutitve and appealing way to navigate through the info.
+
+At this point user can navigate directly to *The Store* through a button placed below the two carousels. 
+
+* The store
+When the user reaches this point he/she already understands the structure of the page and can now fully focus on the blending process.
+
+For the blending process, users faces a form within a carousel where, within 4 steps, he/she can place his/her order.
+
+* Modals
+Modals presented when subscribing to the newsletter and placing the order through the "Let's Blend" button, give an immediate feedback to the user that is action is now being taken care of. 
+
 ##### **Execution** #####
+* Nabvar
+
+For the sake of ease of navigation, I have implemented through Bootstrap a toggle menu for medium and small devices.
+
+The user can also know on each section he/she is due to the pseud-class:active that gives that specific section on the navbar a fixed color. This does not apply to the subscription link as it is transversal to all the pages, sending the user to the bottom of each of the pages.
+
+* Hero-images
+The hero-containers applied via Bootstrap included a min-heigh of 6vh in the backgound-images guaranting that the user can get a sneak-peek of what comes below when the content does not exceed this height.
+As the content is of extreme importance, this sneak-peek stops applying if necessary.
+
+* Carousels
+The carousels implemented to show the content and the form, together with d-flex and h-100 bootstrap classes guarantees that the they are fully responsive across devices.
+
+* Forms
+To embeed the form in the carousel, I have opened it righ at the beginning of the carousel and closed right before the end. The formating was made with Bootstrap guaranteeing its responsivness.
+
+* Overwriting
+I have used Bootstrap throughout all the website, but to guarantee the customization of the page, I overwrote some classes with CSS.
+
 ##### **Testing** #####
+To test the navigation, I have conducted a thourough analysis going page by page and clicking on any button available to gurantee that there is nothing not functioning properly.
+Started with the navbar in small-devices up to big-screens, analysed in-between pages buttons and carousel and modals buttons, finishing with the anchor elements at the footer of the pages.
+
 ##### **Test result** #####
+Website does not show any contradictory information, has a well-defined structure and and is easy to navigate.
+
+Colors and images bring a perfect identity to every step/location where the user is navigating. 
+
+External links are internal *The Lab* links within the carousel form, open in a new tab to guarantee that the user does not loose track of what he/she is doing, nor information already inputed in the form.
+
 ##### **Conclusion** #####
+Test matches fully the user requirements and passes all the criteria
 
-
-### **Contacts**
+### **Contacts & Social Links**
 #### **User Stories & Requirements** ####
-* User Story: easily find the company contacts.
-* User Story: easily find the company's social networks.
+* Easily find the company contacts & social networks.
 * When clicking on links to external pages, I expect the new page to be opened in a separate browser tab.
 * Good access points to contact the company.
 
-##### **Plan of action** #####
+##### **UX** #####
 ##### **Execution** #####
-##### **Testing** #####
-##### **Test result** #####
-##### **Conclusion** #####
+The website uses what is currently accepted to place the contact information: the footer.
 
-#### **Responsive testing** ####
+Being the visual identity very important when navigating through a website, I have decided to display the contacts only through self-explanatory icons.
+
+All links are to be opened in a blank tab.
+
+##### **Testing** #####
+To test this, I have runned a thourough inspection of the footer element, clicking link by link to guarantee its workability as desired.
+
+##### **Test result** #####
+All links are working properly and opening either on a new tab or on the corresponding app on mobile devices.
+
+##### **Conclusion** #####
+Test fully matches the user requirements and address the user stories, passing all the criteria.
 
 ### **Debugging**
 #### **Known Bugs & Corrections** ####
 
 ##### **Bug** #####
-##### **How to reproduce the bug** #####
+horizontal scroll-bar displaying on mobile
 ##### **(Potential) Corrections** #####
+Footer content was not contained in a container, originating it to exceed the admissible width.
+Containing the content into a container-fluid solved the issue.
 
 ##### **Bug** #####
-##### **How to reproduce the bug** #####
+a:hover color seaweed not displaying properly on mobile and showing text-decoration
 ##### **(Potential) Corrections** #####
+a:hover color was within the media query for big screens.
+Moving this element styling to the top of the CSS below the main a element solved the issue.
 
 ##### **Bug** #####
-##### **How to reproduce the bug** #####
+Hamburguer menu not colapsing automatically when choosing the subscribe option
 ##### **(Potential) Corrections** #####
+At the moment I don't have the necessary skills to solve this bug, but certainly this is possible to correct with some Javascript
 
 ##### **Bug** #####
-##### **How to reproduce the bug** #####
+Modals not centered
 ##### **(Potential) Corrections** #####
+Modals where not being displayed centered has the width of the modal class was set to 90%.
+Changing it to 100% solved the bug.
 
 ---
 
@@ -353,17 +461,22 @@ You can find all the images sources through the collection prepared [here](https
 #### **Content**
 ##### **Fun Facts:** #####
 https://www.cecafe.com.br/en/about-coffee/interesting-facts/
+
 https://www.cafedecolombia.com/particulares/historia-del-cafe-de-colombia/
+
 https://jporganiccoffee.com/blogs/news/10-interesting-facts-about-kenya
+
 https://www.backyardtravel.com/blog/8-things-to-know-about-vietnamese-coffee/
+
 https://www.ethiobeauty.com/article/interesting-facts-about-ethiopian-coffee
 
 ##### **Coffee descriptions** #####
 https://coffeeattendant.com/2018/04/24/these-are-the-coffee-flavors-by-country/
+
 https://www.sucafina.com/emea/origins/vietnam?price=EUR
 
-### **Acknowledgments** 
-I would like to start thanking my mentor, [Anna_Villanueva](https://github.com/annavillanueva "Anna Villanueva Github page"), for all the inputs and guidance throughout the past months.
+### **Acknowledgments**
+I would like to thank my mentor, [Anna_Villanueva](https://github.com/annavillanueva "Anna Villanueva Github page"), for all the inputs and guidance throughout the past months.
 
 To my friends and familiy that took time to test and re-test the website and for their valuable recommendations.
 
